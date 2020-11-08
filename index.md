@@ -2,7 +2,27 @@
 
 We try to expand and break down research papers in an easy-to-understand way. In short, we simplify groundbreaking research papers.
 
+{: .no_toc }
 
+```yaml
+# Color scheme supports "light" (default) and "dark"
+color_scheme: dark
+```
+<button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
+
+<script>
+const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
+
+jtd.addEvent(toggleDarkMode, 'click', function(){
+  if (jtd.getTheme() === 'dark') {
+    jtd.setTheme('light');
+    toggleDarkMode.textContent = 'Preview dark color scheme';
+  } else {
+    jtd.setTheme('dark');
+    toggleDarkMode.textContent = 'Return to the light side';
+  }
+});
+</script>
 # Files
 
 StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
@@ -142,5 +162,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTI2MzI0OTQsLTMzMjQ1NTM2M119
+eyJoaXN0b3J5IjpbLTE2ODE1NDgxMDgsLTEwOTI2MzI0OTQsLT
+MzMjQ1NTM2M119
 -->
