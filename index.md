@@ -2,12 +2,7 @@
 
 We try to expand and break down research papers in an easy-to-understand way. In short, we simplify groundbreaking research papers.
 
-{: .no_toc }
 
-```yaml
-# Color scheme supports "light" (default) and "dark"
-color_scheme: dark
-```
 <button class="btn js-toggle-dark-mode">Toggle Dark Mode</button>
 
 <script>
@@ -162,6 +157,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MTE3OTY5LC0xMDkyNjMyNDk0LC0zMz
-I0NTUzNjNdfQ==
+eyJoaXN0b3J5IjpbLTY1OTg5ODgwMywtMTA5MjYzMjQ5NCwtMz
+MyNDU1MzYzXX0=
 -->
