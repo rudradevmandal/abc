@@ -11,7 +11,7 @@ const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
 jtd.addEvent(toggleDarkMode, 'click', function(){
   if (jtd.getTheme() === 'dark') {
     jtd.setTheme('light');
-    toggleDarkMode.textContent = 'Toggle Dark Mode';
+    toggleDarkMode.textContent = 'Click to Enter the Dark Side';
   } else {
     jtd.setTheme('dark');
     toggleDarkMode.textContent = 'Return to the bright side';
@@ -157,6 +157,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNDI0MTM0MiwtMTA5MjYzMjQ5NCwtMz
-MyNDU1MzYzXX0=
+eyJoaXN0b3J5IjpbNDU4NjMwNjkwLC0xMDkyNjMyNDk0LC0zMz
+I0NTUzNjNdfQ==
 -->
