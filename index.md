@@ -3,7 +3,7 @@
 We try to expand and break down research papers in an easy-to-understand way. In short, we simplify groundbreaking research papers.
 
 
-<button class="btn js-toggle-dark-mode">Toggle Dark Mode</button>
+<button class="btn js-toggle-dark-mode">Click to Enter the Dark s</button>
 
 <script>
 const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
@@ -11,10 +11,10 @@ const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
 jtd.addEvent(toggleDarkMode, 'click', function(){
   if (jtd.getTheme() === 'dark') {
     jtd.setTheme('light');
-    toggleDarkMode.textContent = 'Preview dark color scheme';
+    toggleDarkMode.textContent = 'Toggle Dark Mode';
   } else {
     jtd.setTheme('dark');
-    toggleDarkMode.textContent = 'Return to the light side';
+    toggleDarkMode.textContent = 'Return to the bright side';
   }
 });
 </script>
@@ -157,6 +157,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1OTg5ODgwMywtMTA5MjYzMjQ5NCwtMz
-MyNDU1MzYzXX0=
+eyJoaXN0b3J5IjpbNjg1OTc4MDU4LC0xMDkyNjMyNDk0LC0zMz
+I0NTUzNjNdfQ==
 -->
