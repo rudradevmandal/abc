@@ -3,7 +3,7 @@
 We try to expand and break down research papers in an easy-to-understand way. In short, we simplify groundbreaking research papers.
 
 
-<button class="btn js-toggle-dark-mode">Click to Enter the Dark s</button>
+<button class="btn js-toggle-dark-mode">Click to Enter the Dark Side</button>
 
 <script>
 const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
@@ -157,6 +157,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg1OTc4MDU4LC0xMDkyNjMyNDk0LC0zMz
-I0NTUzNjNdfQ==
+eyJoaXN0b3J5IjpbMTUwNDI0MTM0MiwtMTA5MjYzMjQ5NCwtMz
+MyNDU1MzYzXX0=
 -->
