@@ -8,7 +8,7 @@ We try to expand and break down research papers in an easy-to-understand way. In
 # Color scheme supports "light" (default) and "dark"
 color_scheme: dark
 ```
-<button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
+<button class="btn js-toggle-dark-mode">Toggle Dark Mode</button>
 
 <script>
 const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
@@ -162,6 +162,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODE1NDgxMDgsLTEwOTI2MzI0OTQsLT
-MzMjQ1NTM2M119
+eyJoaXN0b3J5IjpbLTU5MTE3OTY5LC0xMDkyNjMyNDk0LC0zMz
+I0NTUzNjNdfQ==
 -->
