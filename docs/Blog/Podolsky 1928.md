@@ -127,7 +127,7 @@ You can render LaTeX mathematical expressions using [KaTeX](https://khan.github.
 The *Gamma function* satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ is via the Euler integral
 
 $$
-\Gamma(z) = \int_0^\infty \,.
+E = m\cdot c^2 \,.
 $$
 
 > You can find more information about **LaTeX** mathematical expressions [here](http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
