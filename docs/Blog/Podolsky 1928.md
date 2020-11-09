@@ -17,7 +17,7 @@ The problem that Podolsky was trying to solve was that of transforming the Quant
 
 
 # The Problem
-Let's start our discussion with a brief review of the problem in hand. We know that, the Hamiltonian for a system can be written as,
+Let's start our discussion with a brief review of the problem in hand. We know that, the Hamiltonian for a system can be written as,\
 $
 H=\frac{p^2}{2m} + U
 $
