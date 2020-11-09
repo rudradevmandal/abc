@@ -129,10 +129,13 @@ The *Gamma function* satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ i
 $$
 E = m\cdot c^2 \,
 $$
+
 Another equation,
+
 $$
 \Gamma(n) = (n-1)!\quad\forall n\in\mathbb N \,
 $$
+
 > You can find more information about **LaTeX** mathematical expressions [here](http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
 
 
