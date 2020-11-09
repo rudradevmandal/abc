@@ -52,7 +52,7 @@ $$
 Now we use all our might to find the solution of this equation! But, what if the equations are easily solved in a different coordinate system, then we need to *transform* this wave equation using the transformation equations. But, as we will see in a bit,
 
 
-*Classical Hamiltonian,* $H_{1} \rightarrow$ *QM Hamiltonian,* $\hat{H_{1}} \rightarrow$ *Wave eq in* $1st$ Coordinate System $\rightarrow$ *Wave eq in* $2nd$ Coordinate System
+*Classical Hamiltonian,* $H_{1} \rightarrow$ *QM Hamiltonian,* $\hat{H_{1}} \rightarrow$ *Wave eq in* $1$ $\rightarrow$ *Wave eq in* $2$ after coordinate transformation 
 
 
 
