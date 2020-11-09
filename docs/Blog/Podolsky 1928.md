@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: post
+mathjax: true
 title: Boris Podolsky (1928)
 parent: Blog
 bibliography: references.bib
