@@ -1,6 +1,6 @@
 # Welcome to Dumb it Down!
 
-We try to expand and break down research papers in an easy-to-understand way. In short, we simplify groundbreaking research papers.
+Here at Dumb it Down, we try to takle the notion of boring research papers. We take We try to expand and break down research papers in an easy-to-understand way. In short, we simplify groundbreaking research papers.
 
 
 <button class="btn js-toggle-dark-mode">Click to Enter the Dark Side</button>
@@ -20,6 +20,6 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
 </script>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MzE4NzM3Niw0NTg2MzA2OTAsLTEwOT
-I2MzI0OTQsLTMzMjQ1NTM2M119
+eyJoaXN0b3J5IjpbMjA1NjYyNzE5NiwxMDUzMTg3Mzc2LDQ1OD
+YzMDY5MCwtMTA5MjYzMjQ5NCwtMzMyNDU1MzYzXX0=
 -->
