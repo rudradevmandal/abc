@@ -8,12 +8,12 @@ parent: Blog
 ---
 
 # Breaking down the ground breaking paper published in 1928 on Quantum mechanics paper by <em>Boris Podolsky<em>
-{: .fs-9 }
+{: .no_toc }
 
 Today we will take a closer look on the ground breaking paper, first published in 1928, by the young Boris Podolsky while working at the University of California in Berkley.
 {: .fs-6 .fw-300 }
 
-{: .no_toc }
+
 
 ## Table of contents
 {: .no_toc .text-delta }
