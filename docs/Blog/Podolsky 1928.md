@@ -25,10 +25,16 @@ H=\frac{p^2}{2m} + U \,
 $$
 
 under the assumptions that, the system in question:
--  is conservative i.e., the forces are derivable from a conservative potential.[^1]
+-  is conservative i.e., the forces are derivable from a conservative potential ($U$).[^1]
 - has generalised coordinates which does not depend on time.
 
-Only under these assumption, we can write the Hamiltonian as, $H=T + U = E$.\
+Only under these assumption, we can write the Hamiltonian as, 
+
+$$
+H=T + U = E
+$$
+
+where, $E$ si the total energy of the system comprised of $T$, the total KE and $U$, the total PE.
 To convert the classical Hamiltonian into a Quantum Mechanical Hamiltonian operator, we replace the momenta, $p$, by their corresponding differential operators,
 
 $$
