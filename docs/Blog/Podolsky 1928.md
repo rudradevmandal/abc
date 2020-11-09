@@ -17,19 +17,17 @@ The problem that Podolsky was trying to solve was that of transforming the Quant
 
 # The Problem
 Let's start our discussion with a brief review of the problem in hand. We know that, the Hamiltonian for a system can be written as,\
-$
-H=\frac{p^2}{2m} + U
-$
+$H=\frac{p^2}{2m} + U$\
 under the assumptions that, the system in question:
--  is conservative i.e., the forces are derivable from a conservative potential[^fn1].
+-  is conservative i.e., the forces are derivable from a conservative potential.[^1]
 - has generalised coordinates which does not depend on time.
 
-Only under these assumption, we can write the Hamiltonian as, $H=T + U = E$.
-To convert the classical Hamiltonian into a Quantum Mechanical Hamiltonian operator, we replace the momenta, $p$, by their corresponding differential operators,
-$$p_x\rightarrow \left( \frac{h}{2 \pi i} \right) \frac{\partial}{\partial x}$$
-and then write the corresponding Schr&#246;dinger wave equation,
-$$\hat{H}\psi = E\psi$$
-Now we use all our might to find the solution of this equation! But, what if the equations are easily solved in a different coordinate system, then we need to *transform* this wave equation using the transformation equations. But, as we will see in a bit,
+Only under these assumption, we can write the Hamiltonian as, $H=T + U = E$.\
+To convert the classical Hamiltonian into a Quantum Mechanical Hamiltonian operator, we replace the momenta, $p$, by their corresponding differential operators,\
+$p_x\rightarrow \left( \frac{h}{2 \pi i} \right) \frac{\partial}{\partial x}$\
+and then write the corresponding Schr&#246;dinger wave equation,\
+$\hat{H}\psi = E\psi$\
+Now we use all our might to find the solution of this equation! But, what if the equations are easily solved in a different coordinate system, then we need to *transform* this wave equation using the transformation equations. But, as we will see in a bit,\
 
-*Classical Hamiltonian,* $H_{1} \rightarrow$ *QM Hamiltonian,* $\hat{H_{1}} \rightarrow$ *Wave eq in* $1$ $\rightarrow$ *Wave eq in* $2$
-[^fn1]: Goldstein H et al. Classical Mechanics. Vol. 3rd edition. Pearson, 2002, xviii, 330–339 p.
+*Classical Hamiltonian,* $H_{1} \rightarrow$ *QM Hamiltonian,* $\hat{H_{1}} \rightarrow$ *Wave eq in* $1$ $\rightarrow$ *Wave eq in* $2$\
+[^1]: Goldstein H et al. Classical Mechanics. Vol. 3rd edition. Pearson, 2002, xviii, 330–339 p.
