@@ -1,3 +1,9 @@
+---
+layout: default
+title: Podolsky 19287
+parent: Blog
+---
+
 # Podolsky 19287
 
 # Breaking down the ground breaking paper published in 1928 on Quantum mechanics by <em>Boris Podolsky<em>
