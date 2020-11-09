@@ -11,7 +11,7 @@ permalink: /
 Here at Dumb it Down, we attempt to takle the notion of boring research papers to an intresting one. We take a research paper that has a significant imact on the progress of science and break it into simpler segements which are fun to read and easy-to-understand, with a pinch of humor baked into it. In short, we simplify groundbreaking research papers.
 
 ## To Our Readers
-We would like to take this time to clear out few of the misconceptions. We do not assume any ability to understand math and physics, although, it would help if you had taken few classes of basic calculus. Even if the math seems incomprehensible, I assure you that it would not hamper your reading as every concept is expanded into very simple, intresting and readable chunks. Please feel free to drop a message to me, in case of any doubts, mistakes in the article or a casual hello!:wave:
+We would like to take this time to clear out few of the misconceptions. We do not assume any ability to understand math and physics, although, it would help if you had taken few classes of basic calculus. Even if the math seems incomprehensible, I assure you that it would not hamper your reading as every concept is expanded into very simple, intresting and readable chunks. Please feel free to drop a message to me, in case of any doubts, mistakes in the article or a casual hello!
 
 **Happy Reading!!**
 
@@ -33,7 +33,7 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
 </script>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4ODAxMDc1OSwxOTIxNjI4ODMyLC05OT
-MwNTI3NCwtOTkzMDUyNzQsMTA1MzE4NzM3Niw0NTg2MzA2OTAs
-LTEwOTI2MzI0OTQsLTMzMjQ1NTM2M119
+eyJoaXN0b3J5IjpbNTA1MTIzMjc0LDEyODgwMTA3NTksMTkyMT
+YyODgzMiwtOTkzMDUyNzQsLTk5MzA1Mjc0LDEwNTMxODczNzYs
+NDU4NjMwNjkwLC0xMDkyNjMyNDk0LC0zMzI0NTUzNjNdfQ==
 -->
