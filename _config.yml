@@ -34,6 +34,23 @@ exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "pac
 #logo: "/assets/images/just-the-docs.png"
 
 
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      words_per_minute: 250
+
+
+
 # Enable or disable the site search
 # Supports true (default) or false
 search_enabled: true
