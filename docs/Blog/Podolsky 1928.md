@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: Boris Podolsky (1928)
