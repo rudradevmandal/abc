@@ -31,9 +31,3 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
   }
 });
 </script>
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA1MTIzMjc0LDEyODgwMTA3NTksMTkyMT
-YyODgzMiwtOTkzMDUyNzQsLTk5MzA1Mjc0LDEwNTMxODczNzYs
-NDU4NjMwNjkwLC0xMDkyNjMyNDk0LC0zMzI0NTUzNjNdfQ==
--->
