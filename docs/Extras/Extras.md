@@ -10,6 +10,3 @@ permalink: /docs/Extras
 
 Here you will find the list of all the blogs.
 {: .fs-6 .fw-300 }
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTY3NTQ1MDldfQ==
--->
