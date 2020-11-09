@@ -65,13 +65,13 @@ These two processes does not lead to concurring equations for the wave equations
 - Write down the Hamiltonian in the cartesian coordinates.
 - Write down its corresponding QM Hamiltonian operator and the corresponding Schr&#246;dinger wave equation.
 - Transform the wave equation to the plane polar coordinates.
-- Finally, repeat the process but starting, now, with the Hamiltonian in plane polar coordinates.
+- Finally, repeat the process but starting, now, with the Hamiltonian directly in plane polar coordinates.
 
 
 The Hamiltonian in cartesian coordinates for a single particle is given by:
 
 $$
-H = \frac{1}{2\mu}\left(p_{x}^{2} + p_{y}^{2} \right) \, 
+H = \frac{1}{2\mu}\left(p_{x}^{2} + p_{y}^{2} \right) \label{eq:hx}\, 
 $$
 
 
