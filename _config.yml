@@ -84,7 +84,7 @@ back_to_top_text: "Back to top"
 
 footer_content: "Copyright &copy; 2020 Dumb it Down. Distributed by an <a href=\"https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt\">MIT license.</a>"
 
-========================
+
 # --- Footer social media links --- #
 
 # Select the social network links that you want to show in the footer.
@@ -138,7 +138,6 @@ feed_show_excerpt: true
 
 # Whether or not to show a list of tags below each post preview in the feed page
 feed_show_tags: true
-========================
 
 
 
