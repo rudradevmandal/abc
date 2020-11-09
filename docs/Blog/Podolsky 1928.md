@@ -34,7 +34,7 @@ $$
 H=T + U = E
 $$
 
-where, $E$ si the total energy of the system comprised of, $T$, the total KE and $U$, the total PE.\
+where, $E$ si the total energy of the system comprised of, $T$, the total KE and $U$, the total PE.\\
 To convert the classical Hamiltonian into a Quantum Mechanical Hamiltonian operator, we replace the momenta, $p$, by their corresponding differential operators,
 
 $$
