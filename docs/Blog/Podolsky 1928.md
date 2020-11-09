@@ -34,7 +34,7 @@ $$
 H=T + U = E
 $$
 
-where, $E$ si the total energy of the system comprised of, $T$, the total KE and $U$, the total PE.
+where, $E$ is the total energy of the system comprised of, $T$, the total KE and $U$, the total PE.
 
 
 To convert the classical Hamiltonian into a Quantum Mechanical Hamiltonian operator, we replace the momenta, $p$, by their corresponding differential operators,
@@ -49,9 +49,11 @@ $$
 \hat{H}\psi = E\psi \,
 $$
 
-Now we use all our might to find the solution of this equation! But, what if the equations are easily solved in a different coordinate system, then we need to *transform* this wave equation using the transformation equations. But, as we will see in a bit,\
+Now we use all our might to find the solution of this equation! But, what if the equations are easily solved in a different coordinate system, then we need to *transform* this wave equation using the transformation equations. But, as we will see in a bit,
 
-*Classical Hamiltonian,* $H_{1} \rightarrow$ *QM Hamiltonian,* $\hat{H_{1}} \rightarrow$ *Wave eq in* $1$ $\rightarrow$ *Wave eq in* $2$\
+
+*Classical Hamiltonian,* $H_{1} \rightarrow$ *QM Hamiltonian,* $\hat{H_{1}} \rightarrow$ *Wave eq in* $1st$ Coordinate System $\rightarrow$ *Wave eq in* $2nd$ Coordinate System
+
 
 
 [^1]: Goldstein H et al. Classical Mechanics. Vol. 3rd edition. Pearson, 2002, xviii, 330–339 p.
