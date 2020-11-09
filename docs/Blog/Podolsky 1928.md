@@ -101,7 +101,7 @@ $$
 
 
 
-<div class="code-example" markdown="1">
+<div class="code-example" markdown="1" style="background-color:#66ccff">
 **_NOTE:_**  The symbols used for $\psi$ in \eqref{eq:Sx} and \eqref{eq:Sr1} are same.
 </div>
 
