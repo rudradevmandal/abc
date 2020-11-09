@@ -1,3 +1,11 @@
+---
+layout: default
+title: Home
+nav_order: 1
+description: "Simplifying groundbreaking research papers."
+permalink: /
+---
+
 # Welcome to Dumb it Down!
 
 Here at Dumb it Down, we attempt to takle the notion of boring research papers to an intresting one. We take a research paper that has a significant imact on the progress of science and break it into simpler segements which are fun to read and easy-to-understand, with a pinch of humor baked into it. In short, we simplify groundbreaking research papers.
