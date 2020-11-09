@@ -106,9 +106,11 @@ $$
 
 |**_ASIDE:_**  The above statement says that,
 
-$$
+
+$
 \psi_c(x,y) = \psi_c(r,\theta)
-$$
+$
+
 
 This is an abuse of notation, what I mean is that, I should write $\psi_c(x,y) = \psi_c(rcos(\theta),rsin(\theta))$ i.e., to say that in the function $\psi_c(x,y)$ the $x$'s are replaced by $rcos(\theta)$ and $y$'s are replaced by $rsin(\theta)$ to get $\psi_c(r,\theta)$. But, not always we know the exact functional form of the coordinates, that is why the choice of this notation.|
 
