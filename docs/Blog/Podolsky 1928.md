@@ -26,7 +26,7 @@ Only under these assumption, we can write the Hamiltonian as, $H=T + U = E$.\
 To convert the classical Hamiltonian into a Quantum Mechanical Hamiltonian operator, we replace the momenta, $p$, by their corresponding differential operators,\
 $p_x\rightarrow \left( \frac{h}{2 \pi i} \right) \frac{\partial}{\partial x}$\
 and then write the corresponding Schr&#246;dinger wave equation,\
-$\hat{H}\psi = E\psi$\
+$$\hat{H}\psi = E\psi$$\
 Now we use all our might to find the solution of this equation! But, what if the equations are easily solved in a different coordinate system, then we need to *transform* this wave equation using the transformation equations. But, as we will see in a bit,\
 
 *Classical Hamiltonian,* $H_{1} \rightarrow$ *QM Hamiltonian,* $\hat{H_{1}} \rightarrow$ *Wave eq in* $1$ $\rightarrow$ *Wave eq in* $2$\
