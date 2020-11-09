@@ -71,7 +71,7 @@ These two processes does not lead to concurring equations for the wave equations
 The Hamiltonian in cartesian coordinates for a single particle is given by:
 
 $$
-H = \frac{1}{2\mu}\left(p_{x}^{2} + p_{y}^{2} \right) \, \label{eq:hx}
+H = \frac{1}{2\mu}\left(p_{x}^{2} + p_{y}^{2} \right) \label{eq:hx} \, 
 $$
 
 
