@@ -119,7 +119,8 @@ compress_html:
   # ignore:
   #   envs: all
 
-
+plugins:
+  - jekyll-katex
 markdown: kramdown
 kramdown:
   math_engine: nil
