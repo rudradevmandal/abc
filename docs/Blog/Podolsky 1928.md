@@ -97,4 +97,6 @@ This leads us to,
 $$
 \frac{1}{r}\frac{\partial}{\partial r}\left(r\frac{\partial \psi_c(r,\theta)}{\partial r}\right) + \frac{1}{r^2}\left(\frac{\partial^2 \psi_c(r,\theta)}{\partial \theta^2}\right) + \frac{2\mu E}{\hbar^{2}}\psi_c(r,\theta) = 0 \label{eq:Sr1}
 $$
+
+
 [^1]: Goldstein H et al. Classical Mechanics. Vol. 3rd edition. Pearson, 2002, xviii, 330–339 p.
