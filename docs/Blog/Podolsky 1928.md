@@ -104,11 +104,7 @@ $$
 |**_NOTE:_**  The symbols used for $\psi$ in \eqref{eq:Sx} and \eqref{eq:Sr1} are same.|
 
 
-|**_ASIDE:_**  The above statement says that,\
-$
-\psi_c(x,y) = \psi_c(r,\theta)
-$\
-This is an abuse of notation, what I mean is that, I should write $\psi_c(x,y) = \psi_c(rcos(\theta),rsin(\theta))$ i.e., to say that in the function $\psi_c(x,y)$ the $x$'s are replaced by $rcos(\theta)$ and $y$'s are replaced by $rsin(\theta)$ to get $\psi_c(r,\theta)$. But, not always we know the exact functional form of the coordinates, that is why the choice of this notation.|
+|**_ASIDE:_**  The above statement says that, $\psi_c(x,y) = \psi_c(r,\theta)$ This is an abuse of notation, what I mean is that, I should write $\psi_c(x,y) = \psi_c(rcos(\theta),rsin(\theta))$ i.e., to say that in the function $\psi_c(x,y)$ the $x$'s are replaced by $rcos(\theta)$ and $y$'s are replaced by $rsin(\theta)$ to get $\psi_c(r,\theta)$. But, not always we know the exact functional form of the coordinates, that is why the choice of this notation.|
 
 [^1]: Goldstein H et al. Classical Mechanics. Vol. 3rd edition. Pearson, 2002, xviii, 330–339 p.
 
