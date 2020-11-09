@@ -129,7 +129,7 @@ The *Gamma function* satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ i
 $$
 E = m\cdot c^2 \,
 $$
-
+Another equation,
 $$
 \Gamma(n) = (n-1)!\quad\forall n\in\mathbb N \,
 $$
