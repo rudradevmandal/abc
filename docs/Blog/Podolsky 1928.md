@@ -29,8 +29,12 @@ under the assumptions that, the system in question:
 - has generalised coordinates which does not depend on time.
 
 Only under these assumption, we can write the Hamiltonian as, $H=T + U = E$.\
-To convert the classical Hamiltonian into a Quantum Mechanical Hamiltonian operator, we replace the momenta, $p$, by their corresponding differential operators,\
-$p_x\rightarrow \left( \frac{h}{2 \pi i} \right) \frac{\partial}{\partial x}$\
+To convert the classical Hamiltonian into a Quantum Mechanical Hamiltonian operator, we replace the momenta, $p$, by their corresponding differential operators,
+
+$$
+p_x\rightarrow \left( \frac{h}{2 \pi i} \right) \frac{\partial}{\partial x} \,
+$$
+
 and then write the corresponding Schr&#246;dinger wave equation,
 
 $$
