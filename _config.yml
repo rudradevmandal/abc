@@ -63,7 +63,21 @@ search:
 # Enable or disable heading anchors
 heading_anchors: true
 
-#Toggle theme
+# Aux links for the upper right navigation
+aux_links:
+  "Follow Me":
+    - "//www.linkedin.com/in/rudradevmandal"
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: false
+
+# Sort order for navigation links
+# nav_sort: case_insensitive # default, equivalent to nil
+nav_sort: case_sensitive # Capital letters sorted before lowercase
+
+# Footer content
+# appears at the bottom of every page's main content
+
 <button class="btn js-toggle-dark-mode">Click to Enter the Dark Side</button>
 
 <script>
@@ -79,21 +93,6 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
   }
 });
 </script>
-
-# Aux links for the upper right navigation
-aux_links:
-  "Follow Me":
-    - "//www.linkedin.com/in/rudradevmandal"
-
-# Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: false
-
-# Sort order for navigation links
-# nav_sort: case_insensitive # default, equivalent to nil
-nav_sort: case_sensitive # Capital letters sorted before lowercase
-
-# Footer content
-# appears at the bottom of every page's main content
 
 # Back to top link
 back_to_top: true
