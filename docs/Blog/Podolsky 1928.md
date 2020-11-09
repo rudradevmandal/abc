@@ -49,27 +49,30 @@ $$
 \hat{H}\psi = E\psi \,
 $$
 
-Now we use all our might to find the solution of this equation! But, what if the equations are easily solved in a different coordinate system, then we need to *transform* this wave equation using the transformation equations. But, as we will see in a bit,
+Now we use all our might to find the solution of this equation! But, what if the equations are easily solved in a different coordinate system (say $1$ and $2$), then we need to *transform* this wave equation using the transformation equations of $2$. But, as we will see in a bit,
 
 
-*Classical Hamiltonian,* $H_{1} \rightarrow$ *QM Hamiltonian,* $\hat{H_{1}} \rightarrow$ *Wave eq in* $1$ $\rightarrow$ *Wave eq in* $2$ after coordinate transformation 
+*Classical Hamiltonian,* $H_{1} \rightarrow$ *QM Hamiltonian,* $\hat{H_{1}} \rightarrow$ *Wave eq in* $1$ $\rightarrow$ *Wave eq in* $2$ 
 
+
+and,
+
+
+*Classical Hamiltonian,* $H_{2} \rightarrow$ *QM Hamiltonian,* $\hat{H_{2}} \rightarrow$ *Wave eq in* $2$
+
+
+These two processes does not lead to concurring equations for the wave equations. Let's see this in action with a very trivial example of a single particle in a space with no potential, and with just 2 coordinates. So, here's the plan:
+- Write down the Hamiltonian in the cartesian coordinates.
+- Write down its corresponding QM Hamiltonian operator and the corresponding Schr&#246;dinger wave equation.
+- Transform the wave equation to the plane polar coordinates.
+- Finally, repeat the process but starting, now, with the Hamiltonian in plane polar coordinates.
+
+
+The Hamiltonian in cartesian coordinates for a single particle is given by:
+
+$$
+H = \frac{1}{2\mu}\left(p_{x}^{2} + p_{y}^{2} \right) \, 
+$$
 
 
 [^1]: Goldstein H et al. Classical Mechanics. Vol. 3rd edition. Pearson, 2002, xviii, 330–339 p.
-
-## KaTeX
-
-You can render LaTeX mathematical expressions using [KaTeX](https://khan.github.io/KaTeX/):
-
-The *Gamma function* satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ is via the Euler integral
-
-$$
-E = m\cdot c^2 \,
-$$
-
-$$
-\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N \,
-$$
-
-
