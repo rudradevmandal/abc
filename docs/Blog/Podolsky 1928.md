@@ -5,7 +5,7 @@ parent: Blog
 bibliography: references.bib
 ---
 
-# Breaking down the ground breaking paper published in 1928 on Quantum mechanics by <em>Boris Podolsky<em>
+# Breaking down the ground breaking paper published in 1928 on Quantum mechanics paper by <em>Boris Podolsky<em>
 
 Today we will take a closer look on the ground breaking paper, first published in 1928, by the young Boris Podolsky while working at University of California in Berkley.
 
@@ -14,4 +14,11 @@ The problem that Podolsky was trying to solve was that of transforming the Quant
 
 # The Problem
 
+<<<<<<< HEAD
 [^fn1]: @Podolsky1928
+=======
+[^fn1]: [@Podolsky1928]
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTExMTE4ODA5MzJdfQ==
+-->
+>>>>>>> 239b8e3bb15f44e1cb64b44471f63a8c1c08cdad
