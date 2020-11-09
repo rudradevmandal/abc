@@ -100,7 +100,7 @@ $$
 $$
 
 
-```markdown
+```
 > **_NOTE:_**  The note content. Once your file is linked to a synchronized location, StackEdit will periodically synchronize it by downloading/uploading any modification. A merge will be performed if necessary and conflicts will be resolved.
 ```
 
