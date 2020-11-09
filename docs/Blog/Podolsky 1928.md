@@ -104,7 +104,59 @@ $$
 
 
 
-|**_ASIDE:_**  The above statement says that, $\psi_c(x,y) = \psi_c(r,\theta)$ This is an abuse of notation, what I mean is that, I should write $\psi_c(x,y) = \psi_c(rcos(\theta),rsin(\theta))$ i.e., to say that in the function $\psi_c(x,y)$ the $x$'s are replaced by $rcos(\theta)$ and $y$'s are replaced by $rsin(\theta)$ to get $\psi_c(r,\theta)$. But, not always we know the exact functional form of the coordinates, that is why the choice of this notation.|
+|**_ASIDE:_**  The above statement says that, $\psi_c(x,y) = \psi_c(r,\theta)$. This is an abuse of notation, what I mean is that, I should write $\psi_c(x,y) = \psi_c(rcos(\theta),rsin(\theta))$ i.e., to say that in the function $\psi_c(x,y)$ the $x$'s are replaced by $rcos(\theta)$ and $y$'s are replaced by $rsin(\theta)$ to get $\psi_c(r,\theta)$. But, not always we know the exact functional form of the coordinates, that is why the choice of this notation.|
+
+
+Once you've written the wave equation in plane polar coordinates starting from a Hamiltonian in cartesian coordinates, now it's time to start with the Hamiltonian in plane polar coordinates and, then, get to the wave equation. So, the Hamiltonian in plane polar coordinates is:
+
+$$
+H = \frac{1}{2\mu}\left(p_{r}^2 + \frac{1}{r^2}p_{\theta}^2\right) \label{eq:hr}
+$$
+
+Now, replacing $p_r\rightarrow \left( \frac{h}{2 \pi i} \right) \frac{\partial}{\partial r}$ and $p_{\theta}\rightarrow \left( \frac{h}{2 \pi i} \right) \frac{\partial}{\partial \theta}$ in \eqref{eq:hr}, to get the corresponding Hamiltonian operator in plane polar coordinates:
+
+$$
+\hat{H} = \frac{-\hbar^{2}}{2\mu}\left(\frac{\partial^{2}}{\partial r^{2}} + \frac{1}{r^2}\frac{\partial^{2}}{\partial y^{2}} \right) \label{eq:Hr}
+$$
+
+Finally, from \eqref{eq:S}, the Schr&#246;dinger wave equation is,
+
+$$
+\frac{\partial^2 \psi_r(r,\theta)}{\partial r^2} + \frac{1}{r^2}\left(\frac{\partial^2 \psi_r(r,\theta)}{\partial \theta^2}\right) + \frac{2\mu E}{\hbar^{2}}\psi_r(r,\theta) = 0 \label{eq:Sr2}
+$$
+
+Clearly, \eqref{eq:Sr1} and \eqref{eq:Sr2} are not same. One of the reason, which is easy to see, is the relationship between $\psi_c$ and $\psi_r$. The normalisation of $\psi_c$ and $\psi_r$ is done as follows,
+
+$$
+\iint \psi_c(x,y) \psi_c^{*}(x,y) dxdy = \iint \psi_c(r,\theta) \psi_c^{*}(r,\theta) rdrd\theta = 1 \label{eq:N1}
+$$
+
+and similarly, 
+
+$$
+\iint \psi_r(r,\theta) \psi_r^{*}(r,\theta) drd\theta = 1 \label{eq:N2}
+$$
+
+From \eqref{eq:N1} and \eqref{eq:N2} we conclude that,
+
+$$
+\psi_c = \frac{1}{\sqrt r} \psi_r \label{eq:psi}
+$$
+
+Substituting \eqref{eq:psi} in \eqref{eq:Sr1}, gives,
+
+$$
+\left(\frac{\partial^2 \psi_r(r,\theta)}{\partial r^2}\right) +r^{-2}\left(\frac{\partial^2 \psi_r(r,\theta)}{\partial \theta^2}\right) + \left(\frac{2\mu  E}{\hbar^{2}} + \frac{r^{-2} }{4} \right)\psi_r(r,\theta) = 0 \label{eq:Sr3}
+$$
+
+First of all, equation \eqref{eq:Sr3} is a mess. And secondly, equation \eqref{eq:Sr3}, again, is not equal to \eqref{eq:Sr2}. This leads to the, obvious, conclusion that the Hamiltonian defined in \eqref{eq:hr} is not correct. The Hamiltonian cannot be of the form as defined in \eqref{eq:hr}.
+
+
+
+
+
+
+
 
 ---
 [^1]: Goldstein H et al. Classical Mechanics. Vol. 3rd edition. Pearson, 2002, xviii, 330–339 p.
