@@ -2,9 +2,10 @@
 layout: post
 mathjax: true
 read_time: true
-words_per_minute: 200
+words_per_minute: 200default
 title: Boris Podolsky (1928)
 parent: Blog
+bibliography: references.bib
 ---
 
 # Breaking down the ground breaking paper published in 1928 on Quantum mechanics paper by <em>Boris Podolsky<em>
@@ -15,9 +16,10 @@ Today we will take a closer look on the ground breaking paper, first published i
 
 
 ## A Prelude
-The problem that Podolsky was trying to solve was that of transforming the Quantum Mechanical Hamiltonian (A sophisticated terminology for the energy of the system) into other coordinates such as polar coordinate system and finding the subsequent wave equation. The difficulty was inherent in a way that we have always worked with classical systems and the order of transformation didn't really matter. But in Quantum Mechanics, the order, *really*, did matter. In a nutshell, if we wanted to make a sweet lemon juice, the order in which we mix the ingredients doesn't matter in a classical physics, but it does matter in Quantum Physics. We would get a completely different end product if we mix the order of ingredients. Now let's get to some serious business and crack this [paper](https://journals.aps.org/pr/abstract/10.1103/PhysRev.32.812).
+The problem that Podolsky was trying to solve was that of transforming the Quantum Mechanical Hamiltonian (A sophisticated terminology for the energy of the system) into other coordinates such as polar coordinate system and finding the subsequent wave equation. The difficulty was inherent in a way that we have always worked with classical systems and the order of transformation didn't really matter. But in Quantum Mechanics, the order, *really*, did matter. In a nutshell, if we wanted to make a sweet lemon juice, the order in which we mix the ingredients doesn't matter in a classical physics, but it does matter in Quantum Physics. We would get a completely different end product if we mix the order of ingredients. Now let's get to some serious business and crack[@Podolsky1928^fn1] this [paper](https://journals.aps.org/pr/abstract/10.1103/PhysRev.32.812).
 
-## The Problem
+#
+# The Problem
 Let's start our discussion with a brief review of the problem in hand. We know that, the Hamiltonian for a system can be written as,
 
 $$
@@ -31,26 +33,27 @@ under the assumptions that, the system in question:
 Only under these assumption, we can write the Hamiltonian as, 
 
 $$
-H=T + U = E
+$H=T + U = E
 $$
 
 where, $E$ is the total energy of the system comprised of, $T$, the total KE and $U$, the total PE.
 
-
+$.\
+$$ E = m\cdot c^2 \label{eq:mc2}$$
 To convert the classical Hamiltonian into a Quantum Mechanical Hamiltonian operator, we replace the momenta, $p$, by their corresponding differential operators,
-
+\
 $$
 p_x\rightarrow \left( \frac{h}{2 \pi i} \right) \frac{\partial}{\partial x}
 $$
-
+$\
 and then write the corresponding Schr&#246;dinger wave equation,
-
+\
 $$
 \hat{H}\psi = E\psi \label{eq:S} \,
 $$
-
+\
 Now we use all our might to find the solution of this equation! But, what if the equations are easily solved in a different coordinate system (say $1$ and $2$), then we need to *transform* this wave equation using the transformation equations of $2$. But, as we will see in a bit,
-
+\
 
 *Classical Hamiltonian,* $H_{1} \rightarrow$ *QM Hamiltonian,* $\hat{H_{1}} \rightarrow$ *Wave eq in* $1$ $\rightarrow$ *Wave eq in* $2$ 
 
@@ -96,7 +99,22 @@ This leads us to,
 
 $$
 \frac{1}{r}\frac{\partial}{\partial r}\left(r\frac{\partial \psi_c(r,\theta)}{\partial r}\right) + \frac{1}{r^2}\left(\frac{\partial^2 \psi_c(r,\theta)}{\partial \theta^2}\right) + \frac{2\mu E}{\hbar^{2}}\psi_c(r,\theta) = 0 \label{eq:Sr1}
-$$
-
-
+$$\
 [^1]: Goldstein H et al. Classical Mechanics. Vol. 3rd edition. Pearson, 2002, xviii, 330–339 p.
+
+<<<<<<< HEAD
+[^fn1]: @Podolsky1928
+=======
+[^fn1]: [@Podolsky1928]
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTExMTE4ODA5MzJdfQ==
+-->
+>>>>>>> 239b8e3bb15f44e1cb64b44471f63a8c1c08cdad.[^fn1] 
+
+# The Problem
+
+
+[^fn1]: Goldstein H et al. Classical Mechanics. Vol. 3rd edition. Pearson, 2002, xviii, 330–339 p.[@Podolsky1928]
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTMwNzQ5NDE4OF19
+-->
