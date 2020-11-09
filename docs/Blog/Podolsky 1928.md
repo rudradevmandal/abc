@@ -1,6 +1,8 @@
 ---
 layout: post
 mathjax: true
+read_time: true
+words_per_minute: 200
 title: Boris Podolsky (1928)
 parent: Blog
 ---
