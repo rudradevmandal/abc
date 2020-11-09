@@ -16,8 +16,8 @@ The problem that Podolsky was trying to solve was that of transforming the Quant
 
 
 # The Problem
-Let's start our discussion with a brief review of the problem in hand. We know that, the Hamiltonian for a system can be written as,\
-$$H=\frac{p^2}{2m} + U$$\
+Let's start our discussion with a brief review of the problem in hand. We know that, the Hamiltonian for a system can be written as,
+$$H=\frac{p^2}{2m} + U$$
 under the assumptions that, the system in question:
 -  is conservative i.e., the forces are derivable from a conservative potential.[^1]
 - has generalised coordinates which does not depend on time.
