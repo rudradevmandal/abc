@@ -3,7 +3,6 @@ layout: post
 mathjax: true
 title: Boris Podolsky (1928)
 parent: Blog
-words_per_minute: 180
 ---
 
 # Breaking down the ground breaking paper published in 1928 on Quantum mechanics paper by <em>Boris Podolsky<em>
