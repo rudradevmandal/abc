@@ -32,7 +32,7 @@ under the assumptions that, the system in question:
 Only under these assumption, we can write the Hamiltonian as, 
 
 $$
-$H=T + U = E
+H=T + U = E
 $$
 
 where, $E$ is the total energy of the system comprised of, $T$, the total KE and $U$, the total PE.
