@@ -46,7 +46,7 @@ $$
 and then write the corresponding Schr&#246;dinger wave equation,
 
 $$
-\hat{H}\psi = E\psi \,
+\hat{H}\psi = E\psi \label{eq:S} \,
 $$
 
 Now we use all our might to find the solution of this equation! But, what if the equations are easily solved in a different coordinate system (say $1$ and $2$), then we need to *transform* this wave equation using the transformation equations of $2$. But, as we will see in a bit,
@@ -75,5 +75,22 @@ H = \frac{1}{2\mu}\left(p_{x}^{2} + p_{y}^{2} \right) \label{eq:hx} \,
 $$
 
 Now, replacing $p_x\rightarrow \left( \frac{h}{2 \pi i} \right) \frac{\partial}{\partial x}$ and $p_y\rightarrow \left( \frac{h}{2 \pi i} \right) \frac{\partial}{\partial y}$ in \eqref{eq:hx},
+
+$$
+\hat{H} = \frac{-\hbar^{2}}{2\mu}\left(\frac{\partial^{2}}{\partial x^{2}} + \frac{\partial^{2}}{\partial y^{2}} \right) \label{eq:Hx} \,
+$$
+
+The Schr&#246;dinger wave equation follows from \eqref{eq:S},
+
+$$
+\frac{\partial^{2}\psi_c(x,y)}{\partial x^{2}} + \frac{\partial^{2}\psi_c(x,y)}{\partial y^{2}} + \frac{2\mu E}{\hbar^{2}}\psi_c(x,y) = 0 \label{eq:Sx} \,
+$$
+
+If we, now, transform the equation \eqref{eq:Sx} to plane polar coordinates using the transformation (The exact derivation of this formula will be shown in the further sections.):
+
+$$
+\frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2}\longrightarrow \frac{1}{r}\frac{\partial}{\partial r}\left(r\frac{\partial}{\partial r}\right) + \frac{1}{r^2}\left(\frac{\partial^2}{\partial \theta^2}\right)
+$$
+
 
 [^1]: Goldstein H et al. Classical Mechanics. Vol. 3rd edition. Pearson, 2002, xviii, 330–339 p.
