@@ -236,7 +236,7 @@ So, What is the use of finding these components? They do not add up to give the 
 1. $\hat{e}_{y'}.\hat{e}^{y'} = 1$
 1. $\hat{e}_{x'}.\hat{e}^{y'} = 0$
 
-So, if you had increased the length of the basis vector $\hat{e}_{x'}$, 
+So, if you had increased the length of the basis vector $\hat{e}_{x'}$, then by the above rules $\hat{e}^{x'}$ would have to decrease,
 
 
 Now, Let's calculate $\vec{A'}.\vec{\tilde{A'}}$:
