@@ -10,7 +10,7 @@ parent: Extras
 # Extras on the ground breaking paper published in 1928 on Quantum mechanics paper by <em>Boris Podolsky<em>
 {: .no_toc }
 
-This section is dedicated to the readers who are super-intrested in getting their kicks by reading mathematical proofs ommitted from this [article](https://rudradevmandal.github.io/abc/docs/Blog/Podolsky%201928/).
+This section is dedicated to the readers who are super-intrested in getting their kicks by reading mathematical proofs ommitted from this [article](https://rudradevmandal.github.io/did/docs/Blog/Podolsky%201928/).
 {: .fs-6 .fw-300 }
 
 
