@@ -232,7 +232,7 @@ $$
 
 So, What is the use of finding these components? They do not add up to give the corresponding vector. But, that is because we have, yet, not defined the basis vectors. In the space, where components are taken by perpendicular projections, the basis vectors $\hat{e}^{x'}$ and $\hat{e}^{y'}$ must be selected such that:
 
-1. $$\hat{e}_{x'}.\hat{e}^{y'} = \hat{e}_{y'}.\hat{e}^{y'} = 1 \nonumber$$
+1. $\hat{e}_{x'}.\hat{e}^{y'} \eq \hat{e}_{y'}.\hat{e}^{y'} \eq 1 $
 1. $\hat{e}_{x'}.\hat{e}^{y'} = 0$
 
 
