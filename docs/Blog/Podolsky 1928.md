@@ -236,7 +236,7 @@ So, What is the use of finding these components? They do not add up to give the 
 1. $\hat{e}_{y'}.\hat{e}^{y'} = 1$
 1. $\hat{e}_{x'}.\hat{e}^{y'} = 0$
 
-So, if you had increased the length of the basis vector $\hat{e}_{x'}$, then by the above rules $\hat{e}^{x'}$ would have to decrease, because one is the reciprocal of the other. This would lead to the corresponding component of $$\hat{e}_{x'}$$ i.e., $A^{x'}$ to decrease and the corresponding component of $\hat{e}^{x'}$ i.e., $A_{x'}$ to increase. Hence, their names *"Contravariant"* and *"Covariant"* vector components.(*The componets of the vector are covariant or contravariant, and not the vector itself.*)
+So, if you had increased the length of the basis vector $\hat{e}_{x'}$\text{, then by the above rules} $\hat{e}^{x'}$ \text{would have to decrease, because one is the reciprocal of the other. This would lead to the corresponding component of} $$\hat{e}_{x'}$$ i.e., $A^{x'}$ to decrease and the corresponding component of $\hat{e}^{x'}$ i.e., $A_{x'}$ to increase. Hence, their names *"Contravariant"* and *"Covariant"* vector components.(*The componets of the vector are covariant or contravariant, and not the vector itself.*)
 
 Now, Let's calculate $\vec{A'}.\vec{\tilde{A'}}$:
 
