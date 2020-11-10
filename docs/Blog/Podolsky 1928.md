@@ -178,7 +178,7 @@ $$
 \vec{A}.\vec{A} =  (1\hat{e_x} + 1\hat{e_y}).(1\hat{e_x} + 1\hat{e_y}) = \hat{e_x}.\hat{e_x} + \hat{e_y}.\hat{e_y} = 2
 $$
 
-So let's call the $x-$component of the vector $\vec{A}$ to be $A^x$ and $y-$component to be $A^y$ (*The choice of this notation will be clarified*).
+So let's call the $x-$component of the vector $\vec{A}$ to be $A^x$ and $y-$component to be $A^y$ (*The choice of this notation will be clarified later*).
 
 
 Now, let us see the same dot product in an obliqe axis coordinate. Consider the $y-$axis to be rotated clockwise by $30^o$.
@@ -186,7 +186,9 @@ Now, let us see the same dot product in an obliqe axis coordinate. Consider the 
 
 **_NOTE:_**  The dot product of a vector is a scalar. It should not change with change in the coordinate system.
 
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rudradevmandal/abc/master/docs/Blog/podolsky_1928/2.png" alt="2" width="300"/>
+</p>
 
 
 
