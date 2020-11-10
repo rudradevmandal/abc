@@ -166,7 +166,11 @@ Having identified the problem with the form of the Hamiltonian, we need to inves
 ### A Little bit of Vector algebra!
 
 
-We will see, how vectors transform\footnote{I'm using the terminology in a very sloppy manner. What I mean to say is the components of a vector.} under a coordinate transformation? Let us start with a very simple example. Consider the vector, $\vec{A} = 1\hat{e_x} + 1\hat{e_y}$.
+We will see, how vectors transform\footnote under a coordinate transformation?
+|I'm using the terminology in a very sloppy manner. What I mean to say is the components of a vector.|
+
+
+Let us start with a very simple example. Consider the vector, $\vec{A} = 1\hat{e_x} + 1\hat{e_y}$.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/rudradevmandal/abc/master/docs/Blog/podolsky_1928/1.png" alt="1" width="300"/>
@@ -234,7 +238,7 @@ So, What is the use of finding these components? They do not add up to give the 
 1. $\hat{e}_{y'}.\hat{e}^{y'} = 1$
 1. $\hat{e}_{x'}.\hat{e}^{y'} = 0$
 
-So, if you had increased the length of the basis vector $$\hat{e}_{x'}$$, then by the above rules $$\hat{e}^{x'}$$ would have to decrease, because one is the reciprocal of the other. This would lead to the corresponding component of $$\hat{e}_{x'}$$ i.e., $$A^{x'}$$ to decrease and the corresponding component of $$\hat{e}^{x'}$$ i.e., $$A_{x'}$$ to increase. Hence, their names *"Contravariant"* and *"Covariant"* vector components.(*The componets of the vector are covariant or contravariant, and not the vector itself.*)
+So, if you had increased the length of the basis vector $$\hat{e}_{x'}$$, then by the above rules $$\hat{e}^{x'}$$ would have to decrease, because one is the reciprocal of the other. This would lead to the corresponding component of $$\hat{e}_{x'}$$ i.e., $$A^{x'}$$ to decrease and the corresponding component of $$\hat{e}^{x'}$$ i.e., $$A_{x'}$$ to increase. Hence, their names *"Contravariant"* and *"Covariant"* vector components (*The componets of the vector are covariant or contravariant, and not the vector itself.*).
 
 Now, Let's calculate $\vec{A'}.\vec{\tilde{A'}}$:
 
@@ -249,7 +253,7 @@ $$
 Therefore, we get the same scalar product as we got before. This is the precise way, the inner product of a vector is defined in any coordinate system. In 3D-Euclidean space we do not notice this because the space is self-dual i.e., there is no distinction between the 2 vector spaces. So, the components are exactly the same. knowingly,or, unknowningly, we have always done it. While normalisng a complex quantity, we take its conjugate, i.e., one quantity is taken from the *normal complex plane* and the other from the *dual complex plane*. So, the conjugate of a complex number exists in the dual complex vector space. The whole idea of row and coloumn vectors is based on the *dual vector spaces*. All the row vectors are a part of a *vector space* and all the column vectors are part of its *dual vector space*. That's why, we get a scalar when we multiply a row vector with a column vector. Essentially, we are calculating the dot or scalar or inner product. We do it all the time in Quantum Mechanics, when we find a scalar quantity such as $$\left\langle\phi\vert\psi\right\rangle$$ or $$\left\langle A\vert B\right\rangle$$. *Therefore, in general,* ***we always find the inner product between a vector and its dual***
 
 
-Generalising this idea (*This is called the Einstein's summation convention where repeated indecies are, automatically, summed over*),
+Generalising this idea (*This is called the Einstein's summation convention where repeated indices are, automatically, summed over*),
 
 $$
 \begin{align*}
@@ -288,7 +292,7 @@ $$
 This implies, that the metric tensor is:
 
 $$
-\begin{align*}
+\begin{align}
 g_{ij} &= 
 \begin{bmatrix}
 \hat{e_r}.\hat{e_r} & \hat{e_r}.\hat{e_{\theta}} \\
@@ -304,7 +308,7 @@ g_{ij} &=
 1 & 0 \\
 0 & r^2
 \end{bmatrix}
-\end{align*}
+\end{align}
 $$
 
 Looking at equation \eqref{eq:g} causes $$d\acute{e}j\grave{a}$$ $$vu$$. That's right, if you stare long enough at \eqref{eq:g}, you might see a striking similarity between the *Jacobian* and the *the metric tensor*. The relation is:
