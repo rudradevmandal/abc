@@ -336,7 +336,7 @@ g^{jk} &= g^{-1}_{jk} = J^{-1}(J^T)^{-1}
 \end{align}
 $$
 
-If we expand the \textit{Jacobian Matrix} in the partial derivative form, we exactly get the above expression.
+If we expand the *Jacobian Matrix* in the partial derivative form, we exactly get the above expression.
 
 
 It is important to extract the physical meaning of these equations under all this mathematical rigmarole. We should appreciate the beauty and the deep connection between the Jacobian, the Metric or Fundamental Tensor and the geometry of the space itself. All this process was done so that physical entities must not vary with change in coordinate system. After all, a coordinate system is just a viewpoint, changing viewpoints does not change the actual physical entity.
