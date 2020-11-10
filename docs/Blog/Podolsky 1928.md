@@ -310,22 +310,159 @@ $$
 Looking at equation \eqref{eq:g} causes $$d\acute{e}j\grave{a}$$ $$vu$$. That's right, if you stare long enough at \eqref{eq:g}, you might see a striking similarity between the *Jacobian* and the *the metric tensor*. The relation is:
 
 $$
-\begin{align}
+\begin{align*}
 g = J^{T}J
-\end{align}
+\end{align*}
 $$
 
 which implies,
 
 $$
-\begin{align}
+\begin{align*}
 |g| = |J|^2
+\end{align*}
+$$
+
+Having found these relationships, we can now turn our attention to figuring out the differentials under coordinate transformation.This whole excercise was done to find out the differentials under a coordinate transformation. I will quote the required results in the next few lines, whose proof can be found in the last section.
+
+
+If we have a transformation from $$(x_1,x_2,...,x_n)\rightarrow (x'_1,x'_2,...,x'_n)$$ then,
+
+$$
+\begin{align}\label{eq:tf1}
+dx_1dx_2...dx_n = |J|dx'_1dx'_2...dx'_n = g^{\frac{1}{2}} dx'_1dx'_2...dx'_n
 \end{align}
 $$
 
+|The proof is actually buried in the exterior algebra or the wedge product in vector spaces.|
 
+For example, a transformation from $$(x,y)\rightarrow (r,\theta)$$
 
+$$
+\begin{align*}
+dxdy = rdrd\theta
+\end{align*}
+$$
 
+Similarly, using the \textit{Jacobian}, it can be shown that[^3],
+
+$$
+\begin{align}\label{eq:tf2}
+&\frac{\partial}{\partial x^i} \rightarrow \frac{1}{|J|}\frac{\partial}{\partial x'^i}|J| = g^{-\frac{1}{2}}\frac{\partial}{\partial x'^i}g^{\frac{1}{2}}\\
+&\frac{\partial}{\partial x^i}\frac{\partial}{\partial x^j} \rightarrow g^{-\frac{1}{2}}\frac{\partial}{\partial x'^i}g^{\frac{1}{2}} g_{ij} \frac{\partial}{\partial x'^j}
+\end{align}
+$$
+
+We, now, have all the required tools to correct the form of the Hamiltonian.
+
+## Correcting the Hamiltonian
+
+The Schr&#246;dinger wave equation in cartesian coordinates with n dimensions, is:
+
+$$
+\begin{align}\label{eq:SH1}
+&\frac{\partial^2 \psi_x}{\partial x^2_1} + \frac{\partial^2 \psi_x}{\partial x^2_2} + . . . + \frac{\partial^2 \psi_x}{\partial x^2_n} + \frac{2\mu E}{\hbar^2}\psi_x = 0
+\end{align}
+$$
+
+Where $$\psi_x$$ is normalised as,
+
+$$
+\begin{align}\label{eq:SN1}
+\int_{-\infty}^{\infty} \dots  \int_{-\infty}^{\infty} \psi_x\psi^*_x dx_1\dots dx_n = 1
+\end{align}
+$$
+
+If we apply \eqref{eq:tf1} and \eqref{eq:tf2} to \eqref{eq:SH1} and \eqref{eq:SN1}, we get,
+
+$$
+\begin{align}\label{eq:SH2}
+g^{-\frac{1}{2}}\frac{\partial}{\partial x'^i}g^{\frac{1}{2}}g_{ij}\frac{\partial \psi_x}{\partial x'^j} + \frac{2\mu E}{\hbar^2}\psi_x = 0
+\end{align}
+$$
+
+and
+
+$$
+\begin{align}
+&\int_{-\infty}^{\infty} \dots  \int_{-\infty}^{\infty} \psi_x\psi^*_x dx_1\dots dx_n = 1\\
+&\int_{-\infty}^{\infty} \dots  \int_{-\infty}^{\infty} \psi_x\psi^*_x g^{\frac{1}{2}}dx'_1\dots dx'_n = 1
+\end{align}
+$$
+
+also,
+
+$$
+\begin{align}
+&\int_{-\infty}^{\infty} \dots  \int_{-\infty}^{\infty} \psi_{x'}\psi^*_{x'} dx'_1\dots dx'_n = 1
+\end{align}
+$$
+
+Comparing the form of the integrands defined above, we can conclude that,
+
+$$
+\begin{align}\label{eq:tf3}
+&\psi_x = g^{\frac{-1}{4}}\psi_{x'}
+\end{align}
+$$
+
+Substituting \eqref{eq:tf3} in \eqref{eq:SH2}, gives,
+
+$$
+\begin{align}\label{eq:SH3}
+\frac{1}{2\mu}g^{-\frac{1}{4}}\frac{\hbar}{i}\frac{\partial}{\partial x'^i}\left(g^{\frac{1}{2}}g_{ij}\frac{\hbar}{i}\frac{\partial}{\partial x'^j}g^{-\frac{1}{4}}\psi_x'\right) - E\psi_x' =0
+\end{align}
+$$
+
+Converting the above equation into its corresponding Hamiltonian,
+
+$$
+\begin{align}\label{eq:H3}
+H = \frac{1}{2\mu}g^{-\frac{1}{4}}p^i g^{\frac{1}{2}}g_{ij}p^j g^{-\frac{1}{4}}
+\end{align}
+$$
+
+Classically, the above equation simplifies to,
+
+$$
+\begin{align}
+H = \frac{1}{2\mu}p^i g_{ij} p^j
+\end{align}
+$$
+
+In our case, the plane polar coordinates,
+
+$$
+\begin{align}
+&g_{ij} = 
+\begin{bmatrix}
+1 & 0 \\
+0 & r^2
+\end{bmatrix}\\
+&|g| = r^2
+\end{align}
+$$
+
+The Hamiltonian, as defined in \eqref{eq:H3}, is,
+
+$$
+\begin{align}\label{eq:H4}
+H = \frac{1}{2\mu}r^{-\frac{1}{2}}\left(p_r r. p_r r^{-\frac{1}{2}} + p_{\theta}r. r^{-2}p_{\theta} r^{-\frac{1}{2}}\right)
+\end{align}
+$$
+
+Finding the corresponding Hamiltonian operator for the above Hamiltonian,
+
+$$
+\begin{align}
+H\psi &= \frac{-\hbar^2}{2\mu}r^{-\frac{1}{2}}\left(\frac{\partial}{\partial r} r. \frac{\partial}{\partial r} r^{-\frac{1}{2}} + \frac{\partial}{\partial \theta}r. r^{-2}\frac{\partial}{\partial \theta} r^{-\frac{1}{2}}\right)\psi \\
+&= \frac{-\hbar^2}{2\mu}\left(\frac{\partial^2 \psi}{\partial r^2} + r^{-2}\frac{\partial^2 \psi}{\partial \theta^2} + \frac{r^{-2} \psi}{4}\right)
+\end{align}
+$$
+
+The above equation exatly matches the one in \eqref{eq:Sr3}. That means, the Hamiltonian in \eqref{eq:H4} is in Quantum-Mechanically Correct form. 
+
+A lot of proofs are ommitted from this article to keep it concise as well as not to make the reader go bonkers while reading such heavy mathematical proofs. But, a comprehensive set of proofs can be found here. 
 
 
 
@@ -345,3 +482,4 @@ $$
 ---
 [^1]: Goldstein H et al. Classical Mechanics. Vol. 3rd edition. Pearson, 2002, xviii, 330–339 p.
 [^2]: Daniel Fleisch. A Student's Guide to Vectors and Tensors. Cambridge: Cambridge University Press, 2011, 97{157 p.
+[^3]: Francis D. Murnaghan. Vector analysis and the theory of relativity (classic reprint). FORGOTTEN Books, 2015, 40{50 p. isbn: 1440094349.
