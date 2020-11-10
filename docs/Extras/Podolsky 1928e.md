@@ -32,8 +32,14 @@ Let us start by considering a coordinate transformation from $$(x_1,x_2,\dots,x_
 
 $$
 \begin{align}
-x_1(x'_1,x'_2,\dots,x'_n),x_2(x'_1,x'_2,\dots,x'_n),\dots,x_n(x'_1,x'_2,\dots,x'_n)\\
-\intertext{Similarly,}
+x_1(x'_1,x'_2,\dots,x'_n),x_2(x'_1,x'_2,\dots,x'_n),\dots,x_n(x'_1,x'_2,\dots,x'_n)
+\end{align}
+$$
+
+Similarly,
+
+$$
+\begin{align}
 x'_1(x_1,x_2,\dots,x_n),x'_2(x_1,x_2,\dots,x_n)\dots,x'_n(x_1,x_2,\dots,x_n)
 \end{align}
 $$
@@ -45,7 +51,7 @@ $$
 dx_1 &= \frac{\partial x_1}{\partial x'_1}dx'_1+\frac{\partial x_1}{\partial x'_2}dx'_2+\dots+\frac{\partial x_1}{\partial x'_n}dx'_n\nonumber\\ 
 &= \frac{\partial x_1}{\partial x'_i}dx'_i\\
 dx_2 &= \frac{\partial x_2}{\partial x'_i}dx'_i\\
-& \vdotswithin{ = }\notag \\
+&\mathrel{\makebox[\widthof{=}]{\vdots}} \\
 dx_n &= \frac{\partial x_n}{\partial x'_i}dx'^i
 \end{align}
 $$
