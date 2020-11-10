@@ -193,8 +193,8 @@ Now, let us see the same dot product in an obliqe axis coordinate. Consider the 
 Solving for $A^{x^{'}}$ and $A^{y^{'}}$:
 
 $$
-A^{y^{'}} =  \frac{1}{cos(30^o)} = 1.15 \nonumber\
-A^{x^{'}} = 1 - \frac{cos(60^o)}{cos(30^o)} = 0.422 \nonumber
+A^{y^{'}} =  \frac{1}{cos(30^o)} = 1.15 \nonumber
+A^{x^{'}} = 1 - \frac{cos(60^o)}{cos(30^o)} = 0.422
 $$
 
 
