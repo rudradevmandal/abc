@@ -462,7 +462,7 @@ $$
 
 The above equation exatly matches the one in \eqref{eq:Sr3}. That means, the Hamiltonian in \eqref{eq:H4} is in Quantum-Mechanically Correct form. 
 
-A lot of proofs are ommitted from this article to keep it concise as well as not to make the reader go bonkers while reading such heavy mathematical proofs. But, a comprehensive set of proofs can be found here. 
+A lot of proofs are ommitted from this article to keep it concise as well as not to make the reader go bonkers with the overwhelmingly amount of heavy mathematical proofs. But, a comprehensive set of proofs can be found [here](https://rudradevmandal.github.io/abc/docs/Extras/Podolsky%201928e/). 
 
 
 
@@ -480,6 +480,8 @@ A lot of proofs are ommitted from this article to keep it concise as well as not
 
 
 ---
+## References:
+
 [^1]: Goldstein H et al. Classical Mechanics. Vol. 3rd edition. Pearson, 2002, xviii, 330–339 p.
 [^2]: Daniel Fleisch. A Student's Guide to Vectors and Tensors. Cambridge: Cambridge University Press, 2011, 97{157 p.
 [^3]: Francis D. Murnaghan. Vector analysis and the theory of relativity (classic reprint). FORGOTTEN Books, 2015, 40{50 p. isbn: 1440094349.
