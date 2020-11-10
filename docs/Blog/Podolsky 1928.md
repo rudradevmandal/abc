@@ -241,11 +241,11 @@ So, if you had increased the length of the basis vector $\hat{e}_{x'}$, then by 
 
 Now, Let's calculate $\vec{A'}.\vec{\tilde{A'}}$:
 $$
-\begin{align}
-\vec{A'}.\vec{\tilde{A'}} &= (0.422.\hat{e}_{x'} + 1.15 \hat{e}_{y'}) . (1.\hat{e}^{x'} + 1.36.\hat{e}^{y'})\nonumber \\
-								 &= 0.422.\hat{e}_{x'}.\hat{e}^{x'} + 1.578.\hat{e}_{y'}.\hat{e}^{y'}\nonumber \\
+\begin{align*}
+\vec{A'}.\vec{\tilde{A'}} &= (0.422.\hat{e}_{x'} + 1.15 \hat{e}_{y'}) . (1.\hat{e}^{x'} + 1.36.\hat{e}^{y'}) \\
+								 &= 0.422.\hat{e}_{x'}.\hat{e}^{x'} + 1.578.\hat{e}_{y'}.\hat{e}^{y'} \\
 								 &= 2
-\end{align}
+\end{align*}
 $$
 
 
