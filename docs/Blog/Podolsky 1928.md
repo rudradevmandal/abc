@@ -201,9 +201,9 @@ $$
 
 Let's calculate the scalar product:
 
-$$
-\vec{A^{'}}.\vec{A^{'}} =  1.15^{2} \times \hat{e_{x'}}.\hat{e_{x'}} + 0.422^{2} \times \hat{e_{y'}}.\hat{e_{y'}} + 2 \times 1.15 \times 0.422 \times \hat{e_{x'}}.\hat{e_{y'}} = 2 \nonumber
-$$
+\begin{equation*}
+\vec{A^{'}}.\vec{A^{'}} =  1.15^{2} \times \hat{e_{x'}}.\hat{e_{x'}} + 0.422^{2} \times \hat{e_{y'}}.\hat{e_{y'}} + 2 \times 1.15 \times 0.422 \times \hat{e_{x'}}.\hat{e_{y'}} = 2
+\end{equation*}
 
 Well that's nice. But, is there any other way to do this? In fact, there is a more elegant way to reach this. That starts with the concept of *The Dual Vector Space*.
 
@@ -222,11 +222,10 @@ We started with the fact that the vector components of a vector is given by proj
 Calculating the components $A_{x'}$ and $A_{y'}$ using trivial trignometry, gives,
 
 $$
-A_{x'} =  1.00 \nonumber
-$$
-
-$$
-A_{y'} = 1.36 \nonumber
+\begin{align*}
+A_{x'} =  1.00\\
+A_{y'} = 1.36
+\end{align*}
 $$
 
 So, What is the use of finding these components? They do not add up to give the corresponding vector. But, that is because we have, yet, not defined the basis vectors. In the space, where components are taken by perpendicular projections, the basis vectors $\hat{e}^{x'}$ and $\hat{e}^{y'}$ must be selected such that:
