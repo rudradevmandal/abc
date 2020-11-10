@@ -4,7 +4,7 @@ mathjax: true
 read_time: true
 words_per_minute: 200
 title: Boris Podolsky Extras(1928)
-parent: Blog
+parent: Extras
 ---
 
 # Extras on the ground breaking paper published in 1928 on Quantum mechanics paper by <em>Boris Podolsky<em>
