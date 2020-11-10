@@ -175,7 +175,7 @@ We will see, how vectors transform\footnote under a coordinate transformation?
 Let us start with a very simple example. Consider the vector, $\vec{A} = 1\hat{e_x} + 1\hat{e_y}$.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/rudradevmandal/abc/master/docs/Blog/podolsky_1928/1.png" alt="1" width="300"/>
+  <img src="https://raw.githubusercontent.com/rudradevmandal/did/master/docs/Blog/podolsky_1928/1.png" alt="1" width="300"/>
 </p>
 
 The way we find the componets of the vector $\vec{A}$ is by projecting the vector length on $x-$axis and $y-$axis. So, the $x-$component is given by line projecting the tip of the vector which is parallel to the $y-$axis and similarly the $y-$component is found by projecting the tip of the vector to the $y-$axis by a line which is parallel to $x-$axis. The scalar product is given by,
@@ -195,7 +195,7 @@ Now, let us see the same dot product in an obliqe axis coordinate. Consider the 
 |The dot product of a vector is a scalar. It should not change with change in the coordinate system.|
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/rudradevmandal/abc/master/docs/Blog/podolsky_1928/2.png" alt="2" width="300"/>
+  <img src="https://raw.githubusercontent.com/rudradevmandal/did/master/docs/Blog/podolsky_1928/2.png" alt="2" width="300"/>
 </p>
 
 Solving for $A^{x^{'}}$ and $A^{y^{'}}$:
@@ -223,7 +223,7 @@ Let us stick to our 2-D space for now and follow it till the end. It is, just, w
 We started with the fact that the vector components of a vector is given by projecting itself parallel to the other axis. What if the projection is perpendicular? What will happen? Let's see:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/rudradevmandal/abc/master/docs/Blog/podolsky_1928/3.png" alt="3" width="300"/>
+  <img src="https://raw.githubusercontent.com/rudradevmandal/did/master/docs/Blog/podolsky_1928/3.png" alt="3" width="300"/>
 </p>
 
 
@@ -470,7 +470,7 @@ $$
 
 The above equation exatly matches the one in \eqref{eq:Sr3}. That means, the Hamiltonian in \eqref{eq:H4} is in Quantum-Mechanically Correct form. 
 
-A lot of proofs are ommitted from this article to keep it concise as well as not to make the reader go bonkers with the overwhelmingly amount of heavy mathematical proofs. But, a comprehensive set of proofs can be found [here](https://rudradevmandal.github.io/abc/docs/Extras/Podolsky%201928e/). 
+A lot of proofs are ommitted from this article to keep it concise as well as not to make the reader go bonkers with the overwhelmingly amount of heavy mathematical proofs. But, a comprehensive set of proofs can be found [here](https://rudradevmandal.github.io/did/docs/Extras/Podolsky%201928e/). 
 
 
 
