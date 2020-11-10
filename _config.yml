@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Dumb it Down
 description: Simplifying groundbreaking research papers!
-baseurl: "/abc" # the subpath of your site, e.g. /blog
+baseurl: "/did" # the subpath of your site, e.g. /blog
 url: "https://rudradevmandal.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 remote_theme: pmarsceill/just-the-docs
 
