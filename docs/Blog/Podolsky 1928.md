@@ -252,43 +252,43 @@ Therefore, we get the same scalar product as we got before. This is the precise 
 Generalising this idea (*This is called the Einstein's summation convention where repeated indecies are, automatically, summed over*),
 
 $$
-\begin{align}
-\vec{A}.\vec{A} &=  A^i.\hat{e_i} . A^i.\hat{e_i}\nonumber \\
-					   &= (\hat{e_i} . \hat{e_j}) \times A^i . A^j \nonumber \\
+\begin{align*}
+\vec{A}.\vec{A} &=  A^i.\hat{e_i} . A^i.\hat{e_i} \\
+					   &= (\hat{e_i} . \hat{e_j}) \times A^i . A^j  \\
 					   &= g_{ij} A^i . A^j
-\end{align}
+\end{align*}
 $$
 
 This term $$g_{ij}$$ is known as the *metric tensor*, and it contains all the information about the geometry of the space we are working in. This is a very important quantity and it characterises the space or the coordinates that we are working in. It's just amazing, how much information can be extracted just by looking at this tensor. This is used everywhere, to calculate distances, areas, and differentials. And from our definition of inner product, this term is used to go back and fourth between covariant and contravariant vector components. Therefore,
 
 $$
-\begin{align}
+\begin{align*}
 \vec{A}.\vec{A} &=  A_i. A^i = A_i.g^{ij}.A_j = A^i.g_{ij}.A^j
-\end{align}
+\end{align*}
 $$
 
 Let's do an example, to find the general partial derivative form of the metric tensor. Consider our good old transformation from cartesian to plane polar coordinate system, where,
 
 $$
-\begin{align}
+\begin{align*}
 x = rcos(\theta)\\
 y = rsin(\theta)
-\end{align}
+\end{align*}
 $$
 
 The *basis vectors* in the plane polar coordinate system can be written as[^2]:
 
 $$
-\begin{align}
+\begin{align*}
 &\hat{e_r} = \left(\frac{\partial x}{\partial r},\frac{\partial y}{\partial r}\right) = (cos(\theta),sin(\theta))\\
 &\hat{e_{\theta}} = \left(\frac{\partial x}{\partial \theta},\frac{\partial y}{\partial \theta}\right) = (-rsin(\theta),rcos(\theta))
-\end{align}
+\end{align*}
 $$
 
 This implies, that the metric tensor is:
 
 $$
-\begin{align}
+\begin{align*}
 g_{ij} &= 
 \begin{bmatrix}
 \hat{e_r}.\hat{e_r} & \hat{e_r}.\hat{e_{\theta}} \\
@@ -304,9 +304,24 @@ g_{ij} &=
 1 & 0 \\
 0 & r^2
 \end{bmatrix}
+\end{align*}
+$$
+
+Looking at equation \eqref{eq:g} causes $$d\acute{e}j\grave{a}$$ $$vu$$. That's right, if you stare long enough at \eqref{eq:g}, you might see a striking similarity between the *Jacobian* and the *the metric tensor*. The relation is:
+
+$$
+\begin{align}
+g = J^{T}J
 \end{align}
 $$
 
+which implies,
+
+$$
+\begin{align}
+|g| = |J|^2
+\end{align}
+$$
 
 
 
