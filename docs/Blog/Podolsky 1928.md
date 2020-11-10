@@ -133,11 +133,13 @@ Finally, from \eqref{eq:S}, the Schr&#246;dinger wave equation is,
 \frac{\partial^2 \psi_r(r,\theta)}{\partial r^2} + \frac{1}{r^2}\left(\frac{\partial^2 \psi_r(r,\theta)}{\partial \theta^2}\right) + \frac{2\mu E}{\hbar^{2}}\psi_r(r,\theta) = 0 
 \end{equation}
 
-Clearly, \eqref{eq:Sr1} and \eqref{eq:Sr2} are not same. One of the reason, which is easy to see, is the relationship between $\psi_c$ and $\psi_r$. The normalisation of $\psi_c$ and $\psi_r$ is done as follows,
+Clearly, \eqref{eq:Sr1} and \eqref{eq:Sr2} are not same. One of the reason, which is easy to see, is the relationship between $\psi_c$ and $\psi_r$. The normalisation of $\psi_c$ and $$\psi_r$$ is done as follows,
 
-\begin{equation}\label{eq:N1}
+$$
+\begin{align}\label{eq:N1}
 \iint \psi_c(x,y) \psi_c^{*}(x,y) dxdy = \iint \psi_c(r,\theta) \psi_c^{*}(r,\theta) rdrd\theta = 1
-\end{equation}
+\end{align}
+$$
 
 and similarly, 
 
