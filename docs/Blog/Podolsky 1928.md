@@ -193,12 +193,72 @@ Now, let us see the same dot product in an obliqe axis coordinate. Consider the 
 Solving for $A^{x^{'}}$ and $A^{y^{'}}$:
 
 $$
-A^{y^{'}} =  \frac{1}{cos(30^o)} = 1.15
+A^{y^{'}} =  \frac{1}{cos(30^o)} = 1.15 \nonumber
 $$
 
 $$
-A^{x^{'}} = 1 - \frac{cos(60^o)}{cos(30^o)} = 0.422
+A^{x^{'}} = 1 - \frac{cos(60^o)}{cos(30^o)} = 0.422 \nonumber
 $$
+
+Let's calculate the scalar product:
+
+$$
+\vec{A^{'}}.\vec{A^{'}} =  1.15^{2} \times \hat{e_{x'}}.\hat{e_{x'}} + 0.422^{2} \times \hat{e_{y'}}.\hat{e_{y'}} + 2 \times 1.15 \times 0.422 \times \hat{e_{x'}}.\hat{e_{y'}} = 2
+$$
+
+Well that's nice. But, is there any other way to do this? In fact, there is a more elegant way to reach this. That starts with the concept of *The Dual Vector Space*.
+
+### Building the dual space
+
+Let us stick to our 2-D space for now and follow it till the end. It is, just, wonderful to see that an example as simple as this can give a lot of mathematical intuition about the nature of vector spaces.
+
+
+We started with the fact that the vector components of a vector is given by projecting itself parallel to the other axis. What if the projection is perpendicular? What will happen? Let's see:
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rudradevmandal/abc/master/docs/Blog/podolsky_1928/3.png" alt="3" width="300"/>
+</p>
+
+
+Calculating the components $A_{x'}$ and $A_{y'}$ using trivial trignometry, gives,
+
+$$
+A_{x'} =  1.00 \nonumber
+$$
+$$
+A_{y'} = 1.36 \nonumber
+$$
+
+So, What is the use of finding these components? They do not add up to give the corresponding vector. But, that is because we have, yet, not defined the basis vectors. In the space, where components are taken by perpendicular projections, the basis vectors $\hat{e}^{x'}$ and $\hat{e}^{y'}$ must be selected such that:
+
+1. $\hat{e}_{x'}.\hat{e}^{x'} = \hat{e}_{y'}.\hat{e}^{y'} = 1$, and
+1. $\hat{e}_{x'}.\hat{e}^{y'} = 0$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ---
