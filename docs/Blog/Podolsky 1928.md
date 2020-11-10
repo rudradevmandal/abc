@@ -168,7 +168,7 @@ Having identified the problem with the form of the Hamiltonian, we need to inves
 
 We will see, how vectors transform\footnote{I'm using the terminology in a very sloppy manner. What I mean to say is the components of a vector.} under a coordinate transformation? Let us start with a very simple example. Consider the vector, $\vec{A} = 1\hat{e_x} + 1\hat{e_y}$.
 
-![Image of Yaktocat](https://github.com/rudradevmandal/abc/master/docs/Blog/podolsky_1928/1.png)
+![Image of Yaktocat](https://github.com/rudradevmandal/abc/blob/master/docs/Blog/podolsky_1928/1.png)
 
 
 
