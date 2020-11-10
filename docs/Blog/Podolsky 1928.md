@@ -202,7 +202,7 @@ $$
 Let's calculate the scalar product:
 
 \begin{equation}
-\vec{A^{'}}.\vec{A^{'}} =  1.15^{2} \times \hat{e_{x'}}.\hat{e_{x'}} + 0.422^{2} \times \hat{e_{y'}}.\hat{e_{y'}} + 2 \times 1.15 \times 0.422 \times \hat{e_{x'}}.\hat{e_{y'}} = 2
+\vec{A'}.\vec{A'} =  1.15^{2} \times \hat{e_{x'}}.\hat{e_{x'}} + 0.422^{2} \times \hat{e_{y'}}.\hat{e_{y'}} + 2 \times 1.15 \times 0.422 \times \hat{e_{x'}}.\hat{e_{y'}} = 2
 \end{equation}
 
 Well that's nice. But, is there any other way to do this? In fact, there is a more elegant way to reach this. That starts with the concept of *The Dual Vector Space*.
