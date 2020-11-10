@@ -243,8 +243,14 @@ Now, Let's calculate $\vec{A'}.\vec{\tilde{A'}}$:
 
 $$
 \vec{A'}.\vec{\tilde{A'}} &= (0.422.\hat{e}_{x'} + 1.15 \hat{e}_{y'}) . (1.\hat{e}^{x'} + 1.36.\hat{e}^{y'})\nonumber
+$$
+
+$$
 								 &= 0.422.\hat{e}_{x'}.\hat{e}^{x'} + 1.578.\hat{e}_{y'}.\hat{e}^{y'}\nonumber
-								 &= 2
+$$
+
+$$
+								 &= 2 \nonumber
 $$
 
 
