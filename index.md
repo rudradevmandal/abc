@@ -16,4 +16,18 @@ We would like to take this time to clear out few of the misconceptions. We do no
 **Happy Reading!!**
 
 
+<button class="btn js-toggle-dark-mode">Click to Enter the Dark Side</button>
 
+<script>
+const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
+
+jtd.addEvent(toggleDarkMode, 'click', function(){
+  if (jtd.getTheme() === 'dark') {
+    jtd.setTheme('light');
+    toggleDarkMode.textContent = 'Click to Enter the Dark Side';
+  } else {
+    jtd.setTheme('dark');
+    toggleDarkMode.textContent = 'Take me to the Bright Side';
+  }
+});
+</script>
