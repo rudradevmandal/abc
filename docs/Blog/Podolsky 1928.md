@@ -79,33 +79,33 @@ These two processes does not lead to concurring equations for the wave equations
 
 The Hamiltonian in cartesian coordinates for a single particle is given by:
 
-$$
-H = \frac{1}{2\mu}\left(p_{x}^{2} + p_{y}^{2} \right) \label{eq:hx}
-$$
+\begin{equation}\label{eq:hx}
+H = \frac{1}{2\mu}\left(p_{x}^{2} + p_{y}^{2} \right) 
+\end{equation}
 
 Now, replacing $p_x\rightarrow \left( \frac{h}{2 \pi i} \right) \frac{\partial}{\partial x}$ and $p_y\rightarrow \left( \frac{h}{2 \pi i} \right) \frac{\partial}{\partial y}$ in \eqref{eq:hx},
 
-$$
-\hat{H} = \frac{-\hbar^{2}}{2\mu}\left(\frac{\partial^{2}}{\partial x^{2}} + \frac{\partial^{2}}{\partial y^{2}} \right) \label{eq:Hx}
-$$
+\begin{equation}\label{eq:Hx}
+\hat{H} = \frac{-\hbar^{2}}{2\mu}\left(\frac{\partial^{2}}{\partial x^{2}} + \frac{\partial^{2}}{\partial y^{2}} \right) 
+\end{equation}
 
 The Schr&#246;dinger wave equation follows from \eqref{eq:S},
 
-$$
-\frac{\partial^{2}\psi_c(x,y)}{\partial x^{2}} + \frac{\partial^{2}\psi_c(x,y)}{\partial y^{2}} + \frac{2\mu E}{\hbar^{2}}\psi_c(x,y) = 0 \label{eq:Sx}
-$$
+\begin{equation}\label{eq:Sx}
+\frac{\partial^{2}\psi_c(x,y)}{\partial x^{2}} + \frac{\partial^{2}\psi_c(x,y)}{\partial y^{2}} + \frac{2\mu E}{\hbar^{2}}\psi_c(x,y) = 0
+\end{equation}
 
 If we, now, transform the equation \eqref{eq:Sx} to plane polar coordinates using the transformation (The exact derivation of this formula will be shown in the further sections.):
 
-$$
+\begin{equation}
 \frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2}\longrightarrow \frac{1}{r}\frac{\partial}{\partial r}\left(r\frac{\partial}{\partial r}\right) + \frac{1}{r^2}\left(\frac{\partial^2}{\partial \theta^2}\right)
-$$
+\end{equation}
 
 This leads us to,
 
-$$
-\frac{1}{r}\frac{\partial}{\partial r}\left(r\frac{\partial \psi_c(r,\theta)}{\partial r}\right) + \frac{1}{r^2}\left(\frac{\partial^2 \psi_c(r,\theta)}{\partial \theta^2}\right) + \frac{2\mu E}{\hbar^{2}}\psi_c(r,\theta) = 0 \label{eq:Sr1}
-$$
+\begin{equation}\label{eq:Sr1}
+\frac{1}{r}\frac{\partial}{\partial r}\left(r\frac{\partial \psi_c(r,\theta)}{\partial r}\right) + \frac{1}{r^2}\left(\frac{\partial^2 \psi_c(r,\theta)}{\partial \theta^2}\right) + \frac{2\mu E}{\hbar^{2}}\psi_c(r,\theta) = 0
+\end{equation}
 
 
 **_NOTE:_**  The symbols used for $\psi$ in \eqref{eq:Sx} and \eqref{eq:Sr1} are same. Subscript $c$ denotes cartesian and $r$ denotes polar.
@@ -117,45 +117,45 @@ $$
 
 Once you've written the wave equation in plane polar coordinates starting from a Hamiltonian in cartesian coordinates, now it's time to start with the Hamiltonian in plane polar coordinates and, then, get to the wave equation. So, the Hamiltonian in plane polar coordinates is:
 
-$$
-H = \frac{1}{2\mu}\left(p_{r}^2 + \frac{1}{r^2}p_{\theta}^2\right) \label{eq:hr}
-$$
+\begin{equation}\label{eq:hr}
+H = \frac{1}{2\mu}\left(p_{r}^2 + \frac{1}{r^2}p_{\theta}^2\right)
+\end{equation}
 
 Now, replacing $p_r\rightarrow \left( \frac{h}{2 \pi i} \right) \frac{\partial}{\partial r}$ and $p_{\theta}\rightarrow \left( \frac{h}{2 \pi i} \right) \frac{\partial}{\partial \theta}$ in \eqref{eq:hr}, to get the corresponding Hamiltonian operator in plane polar coordinates:
 
-$$
-\hat{H} = \frac{-\hbar^{2}}{2\mu}\left(\frac{\partial^{2}}{\partial r^{2}} + \frac{1}{r^2}\frac{\partial^{2}}{\partial y^{2}} \right) \label{eq:Hr}
-$$
+\begin{equation}\label{eq:Hr}
+\hat{H} = \frac{-\hbar^{2}}{2\mu}\left(\frac{\partial^{2}}{\partial r^{2}} + \frac{1}{r^2}\frac{\partial^{2}}{\partial y^{2}} \right) 
+\end{equation}
 
 Finally, from \eqref{eq:S}, the Schr&#246;dinger wave equation is,
 
-$$
-\frac{\partial^2 \psi_r(r,\theta)}{\partial r^2} + \frac{1}{r^2}\left(\frac{\partial^2 \psi_r(r,\theta)}{\partial \theta^2}\right) + \frac{2\mu E}{\hbar^{2}}\psi_r(r,\theta) = 0 \label{eq:Sr2}
-$$
+\begin{equation}\label{eq:Sr2}
+\frac{\partial^2 \psi_r(r,\theta)}{\partial r^2} + \frac{1}{r^2}\left(\frac{\partial^2 \psi_r(r,\theta)}{\partial \theta^2}\right) + \frac{2\mu E}{\hbar^{2}}\psi_r(r,\theta) = 0 
+\end{equation}
 
 Clearly, \eqref{eq:Sr1} and \eqref{eq:Sr2} are not same. One of the reason, which is easy to see, is the relationship between $\psi_c$ and $\psi_r$. The normalisation of $\psi_c$ and $\psi_r$ is done as follows,
 
-$$
-\iint \psi_c(x,y) \psi_c^{*}(x,y) dxdy = \iint \psi_c(r,\theta) \psi_c^{*}(r,\theta) rdrd\theta = 1 \label{eq:N1}
-$$
+\begin{equation}\label{eq:N1}
+\iint \psi_c(x,y) \psi_c^{*}(x,y) dxdy = \iint \psi_c(r,\theta) \psi_c^{*}(r,\theta) rdrd\theta = 1
+\end{equation}
 
 and similarly, 
 
-$$
-\iint \psi_r(r,\theta) \psi_r^{*}(r,\theta) drd\theta = 1 \label{eq:N2}
-$$
+\begin{equation}\label{eq:N2}
+\iint \psi_r(r,\theta) \psi_r^{*}(r,\theta) drd\theta = 1
+\end{equation}
 
 From \eqref{eq:N1} and \eqref{eq:N2} we conclude that,
 
-$$
-\psi_c = \frac{1}{\sqrt r} \psi_r \label{eq:psi}
-$$
+\begin{equation}\label{eq:psi}
+\psi_c = \frac{1}{\sqrt r} \psi_r
+\end{equation}
 
 Substituting \eqref{eq:psi} in \eqref{eq:Sr1}, gives,
 
-$$
-\left(\frac{\partial^2 \psi_r(r,\theta)}{\partial r^2}\right) +r^{-2}\left(\frac{\partial^2 \psi_r(r,\theta)}{\partial \theta^2}\right) + \left(\frac{2\mu  E}{\hbar^{2}} + \frac{r^{-2} }{4} \right)\psi_r(r,\theta) = 0 \label{eq:Sr3}
-$$
+\begin{equation}\label{eq:Sr3}
+\left(\frac{\partial^2 \psi_r(r,\theta)}{\partial r^2}\right) +r^{-2}\left(\frac{\partial^2 \psi_r(r,\theta)}{\partial \theta^2}\right) + \left(\frac{2\mu  E}{\hbar^{2}} + \frac{r^{-2} }{4} \right)\psi_r(r,\theta) = 0 
+\end{equation}
 
 First of all, equation \eqref{eq:Sr3} is a mess. And secondly, equation \eqref{eq:Sr3}, again, is not equal to \eqref{eq:Sr2}. This leads to the, obvious, conclusion that the Hamiltonian defined in \eqref{eq:hr} is not correct. The Hamiltonian cannot be of the form as defined in \eqref{eq:hr}.
 
@@ -174,9 +174,9 @@ We will see, how vectors transform\footnote{I'm using the terminology in a very 
 
 The way we find the componets of the vector $\vec{A}$ is by projecting the vector length on $x-$axis and $y-$axis. So, the $x-$component is given by line projecting the tip of the vector which is parallel to the $y-$axis and similarly the $y-$component is found by projecting the tip of the vector to the $y-$axis by a line which is parallel to $x-$axis. The scalar product is given by,
 
-$$
+\begin{equation}
 \vec{A}.\vec{A} =  (1\hat{e_x} + 1\hat{e_y}).(1\hat{e_x} + 1\hat{e_y}) = \hat{e_x}.\hat{e_x} + \hat{e_y}.\hat{e_y} = 2
-$$
+\end{equation}
 
 So let's call the $x-$component of the vector $\vec{A}$ to be $A^x$ and $y-$component to be $A^y$ (*The choice of this notation will be clarified later*).
 
@@ -192,13 +192,12 @@ Now, let us see the same dot product in an obliqe axis coordinate. Consider the 
 
 Solving for $A^{x^{'}}$ and $A^{y^{'}}$:
 
-$$
-A^{y^{'}} =  \frac{1}{cos(30^o)} = 1.15 \nonumber
-$$
-
-$$
-A^{x^{'}} = 1 - \frac{cos(60^o)}{cos(30^o)} = 0.422 \nonumber
-$$
+\begin{equation*}
+\begin{aligned}
+A^{y^{'}} =  \frac{1}{cos(30^o)} = 1.15\\
+A^{x^{'}} = 1 - \frac{cos(60^o)}{cos(30^o)} = 0.422
+\end{aligned}
+\end{equation*}
 
 Let's calculate the scalar product:
 
