@@ -348,7 +348,7 @@ dxdy = rdrd\theta
 \end{align*}
 $$
 
-Similarly, using the \textit{Jacobian}, it can be shown that[^3],
+Similarly, using the *Jacobian*, it can be shown that[^3],
 
 $$
 \begin{align}\label{eq:tf2}
