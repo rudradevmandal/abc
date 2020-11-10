@@ -47,13 +47,13 @@ $$
 As each of the coordinate is a function of the other. We can write down the differentials as,
 
 $$
-\begin{align*}
-dx_1 &= \frac{\partial x_1}{\partial x'_1}dx'_1+\frac{\partial x_1}{\partial x'_2}dx'_2+\dots+\frac{\partial x_1}{\partial x'_n}dx'_n\\ 
+\begin{align}
+dx_1 &= \frac{\partial x_1}{\partial x'_1}dx'_1+\frac{\partial x_1}{\partial x'_2}dx'_2+\dots+\frac{\partial x_1}{\partial x'_n}dx'_n\nonumber\\ 
 &= \frac{\partial x_1}{\partial x'_i}dx'_i\\
 dx_2 &= \frac{\partial x_2}{\partial x'_i}dx'_i\\
-&\mathrel{\makebox[\widthof{=}]{\vdots}} \\
+ & \vdots \\
 dx_n &= \frac{\partial x_n}{\partial x'_i}dx'^i
-\end{align*}
+\end{align}
 $$
 
 And, similarly for $$x'$$, we have,
