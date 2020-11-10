@@ -51,7 +51,7 @@ $$
 dx_1 &= \frac{\partial x_1}{\partial x'_1}dx'_1+\frac{\partial x_1}{\partial x'_2}dx'_2+\dots+\frac{\partial x_1}{\partial x'_n}dx'_n\nonumber\\ 
 &= \frac{\partial x_1}{\partial x'_i}dx'_i\\
 dx_2 &= \frac{\partial x_2}{\partial x'_i}dx'_i\\
- & \ \ \vdots \\
+& \ \ \vdots \notag\\
 dx_n &= \frac{\partial x_n}{\partial x'_i}dx'^i
 \end{align}
 $$
@@ -63,7 +63,7 @@ $$
 dx'_1 &= \frac{\partial x'_1}{\partial x_1}dx_1+\frac{\partial x'_1}{\partial x_2}dx_2+\dots+\frac{\partial x'_1}{\partial x_n}dx_n\nonumber\\ 
 &= \frac{\partial x'_1}{\partial x_i}dx_i\\
 dx'_2 &= \frac{\partial x'_2}{\partial x_i}dx_i\\
-& \vdotswithin{ = }\notag \\
+& \ \ \vdots \notag\\
 dx'_n &= \frac{\partial x'_n}{\partial x_i}dx^i
 \end{align}
 $$
@@ -154,7 +154,7 @@ $$
 \begin{align}
 \frac{\partial x'_1}{\partial x_1} &= \frac{1}{|J|}\left|\frac{\partial (x_2,x_3,\dots,x_n)}{\partial (x'_2,x'_3,\dots,x'_n)}\right|\\
 \frac{\partial x'_2}{\partial x_2} &= \frac{1}{|J|}\left|\frac{\partial (x_1,x_3,\dots,x_n)}{\partial (x'_1,x'_3,\dots,x'_n)}\right|\\
-& \vdotswithin{ = }\notag\\
+& \ \ \vdots \notag\\
 \frac{\partial x'_n}{\partial x_n} &= \frac{1}{|J|}\left|\frac{\partial (x_1,x_3,\dots,x_{n-1})}{\partial (x'_1,x'_3,\dots,x'_{n-1})}\right|
 \end{align}
 $$
@@ -229,12 +229,18 @@ Converting partial differentials is very important as they include important inf
 $$
 \begin{align}
 \frac{\partial}{\partial x_1} &= \frac{\partial x'_1}{\partial x_1}\frac{\partial}{\partial x'_1} + \frac{\partial x'_2}{\partial x_1}\frac{\partial}{\partial x'_2} + \dots+\frac{\partial x'_n}{\partial x_n}\frac{\partial}{\partial x'_n}\\
-\intertext{Generalising for all n's,}
+\end{align}
+$$
+
+Generalising for all n's
+
+$$
+\begin{align}
 \frac{\partial}{\partial x_i} &=  \frac{\partial x'_j}{\partial x_i}\frac{\partial}{\partial x'^j}
 \end{align}
 $$
 
-Multiplying both sides by $|J|$, and calculating $$\nabla.A$$,
+Multiplying both sides by $$\vert J \vert$$, and calculating $$\nabla.A$$,
 
 $$
 \begin{align}
@@ -243,12 +249,18 @@ $$
 \end{align}
 $$
 
-In the above equation I have, essentially, used the rule $$JXdA = d(JXA) - Ad(JX)$$. If you expand the terms in $$\frac{\partial}{\partial x'_j}\left(|J|\frac{\partial x'_j}{\partial x_i}\right)$$, it can be easily verified that all the terms in its expansion add up to zero. Therfore we are, now, left with,
+In the above equation I have, essentially, used the rule $$JXdA = d(JXA) - Ad(JX)$$. If you expand the terms in $$\frac{\partial}{\partial x'_j}\left(\vert J \vert\frac{\partial x'_j}{\partial x_i}\right)$$, it can be easily verified that all the terms in its expansion add up to zero. Therfore we are, now, left with,
 
 $$
 \begin{align}
 |J|\frac{\partial A^i}{\partial x_i}&=   \frac{\partial}{\partial x'_j}\left(|J|A\frac{\partial x'^j}{\partial x_i}\right)\\
-\intertext{which implies,}
+\end{align}
+$$
+
+which implies,
+
+$$
+\begin{align}
 \frac{\partial A^i}{\partial x_i}&=\frac{1}{|J|}   \frac{\partial}{\partial x'_j}\left(|J|A^{i}\frac{\partial x'^j}{\partial x_i}\right)\label{eq:del}
 \end{align}
 $$
