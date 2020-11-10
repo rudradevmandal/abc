@@ -172,6 +172,17 @@ We will see, how vectors transform\footnote{I'm using the terminology in a very 
   <img src="https://raw.githubusercontent.com/rudradevmandal/abc/master/docs/Blog/podolsky_1928/1.png" alt="1" width="300"/>
 </p>
 
+The way we find the componets of the vector $\vec{A}$ is by projecting the vector length on $x-$axis and $y-$axis. So, the $x-$component is given by line projecting the tip of the vector which is parallel to the $y-$axis and similarly the $y-$component is found by projecting the tip of the vector to the $y-$axis by a line which is parallel to $x-$axis. The scalar product is given by,
+
+$$
+\vec{A}.\vec{A} =  (1\hat{e_x} + 1\hat{e_y}).(1\hat{e_x} + 1\hat{e_y}) = \hat{e_x}.\hat{e_x} + \hat{e_y}.\hat{e_y} = 2
+$$
+
+So let's call the $x-$component of the vector $\vec{A}$ to be $A^x$ and $y-$component to be $A^y$ (**The choice of this notation will be clarified**).
+
+
+Now, let us see the same dot product in an obliqe axis coordinate. Consider the $y-$axis to be rotated clockwise by $30^o$.
+**_NOTE:_**  The dot product of a vector is a scalar. It should not change with change in the coordinate system.
 
 
 
