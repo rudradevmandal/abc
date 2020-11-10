@@ -29,9 +29,9 @@ The problem that Podolsky was trying to solve was that of transforming the Quant
 ## The Problem
 Let's start our discussion with a brief review of the problem in hand. We know that, the Hamiltonian for a system can be written as,
 
-$$
-H=\frac{p^2}{2m} + U
-$$
+\begin{equation}
+H=T + U = E
+\end{equation}
 
 under the assumptions that, the system in question:
 -  is conservative i.e., the forces are derivable from a conservative potential ($U$).[^1]
@@ -39,24 +39,24 @@ under the assumptions that, the system in question:
 
 Only under these assumption, we can write the Hamiltonian as, 
 
-$$
+\begin{equation}
 H=T + U = E
-$$
+\end{equation}
 
 where, $E$ is the total energy of the system comprised of, $T$, the total KE and $U$, the total PE.
 
 
 To convert the classical Hamiltonian into a Quantum Mechanical Hamiltonian operator, we replace the momenta, $p$, by their corresponding differential operators,
 
-$$
-p_x\rightarrow \left( \frac{h}{2 \pi i} \right) \frac{\partial}{\partial x}
-$$
+\begin{equation}
+p_x\rightarrow \left( \frac{h}{2 \pi i} \right) \frac{\partial}{\partial x} 
+\end{equation}
 
 and then write the corresponding Schr&#246;dinger wave equation,
 
-$$
-\hat{H}\psi = E\psi \label{eq:S} 
-$$
+\begin{equation}\label{eq:S}
+\hat{H}\psi = E\psi 
+\end{equation}
 
 Now we use all our might to find the solution of this equation! But, what if the equations are easily solved in a different coordinate system (say $1$ and $2$), then we need to *transform* this wave equation using the transformation equations of $2$. But, as we will see in a bit,
 
