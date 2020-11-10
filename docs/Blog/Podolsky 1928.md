@@ -246,8 +246,66 @@ $$
 \end{align*}
 $$
 
+Therefore, we get the same scalar product as we got before. This is the precise way, the inner product of a vector is defined in any coordinate system. In 3D-Euclidean space we do not notice this because the space is self-dual i.e., there is no distinction between the 2 vector spaces. So, the components are exactly the same. knowingly,or, unknowningly, we have always done it. While normalisng a complex quantity, we take its conjugate, i.e., one quantity is taken from the *normal complex plane* and the other from the *dual complex plane*. So, the conjugate of a complex number exists in the dual complex vector space. The whole idea of row and coloumn vectors is based on the *dual vector spaces*. All the row vectors are a part of a *vector space* and all the column vectors are part of its *dual vector space*. That's why, we get a scalar when we multiply a row vector with a column vector. Essentially, we are calculating the dot or scalar or inner product. We do it all the time in Quantum Mechanics, when we find a scalar quantity such as $$\braket{\phi|\psi}$$ or $$\braket{A|B}$$. Therefore, in general, ***we always find the inner product between a vector and its dual***
 
 
+Generalising this idea (*This is called the Einstein's summation convention where repeated indecies are, automatically, summed over*),
+
+$$
+\begin{align}
+\vec{A}.\vec{A} &=  A^i.\hat{e_i} . A^i.\hat{e_i}\nonumber \\
+					   &= (\hat{e_i} . \hat{e_j}) \times A^i . A^j \nonumber \\
+					   &= g_{ij} A^i . A^j
+\end{align}
+$$
+
+This term $$g_{ij}$$ is known as the *metric tensor*, and it contains all the information about the geometry of the space we are working in. This is a very important quantity and it characterises the space or the coordinates that we are working in. It's just amazing, how much information can be extracted just by looking at this tensor. This is used everywhere, to calculate distances, areas, and differentials. And from our definition of inner product, this term is used to go back and fourth between covariant and contravariant vector components. Therefore,
+
+$$
+\begin{align}
+\vec{A}.\vec{A} &=  A_i. A^i = A_i.g^{ij}.A_j = A^i.g_{ij}.A^j
+\end{align}
+$$
+
+Let's do an example, to find the general partial derivative form of the metric tensor. Consider our good old transformation from cartesian to plane polar coordinate system, where,
+
+$$
+\begin{align}
+x = rcos(\theta)\\
+y = rsin(\theta)
+\end{align}
+$$
+
+The *basis vectors* in the plane polar coordinate system can be written as[^2]:
+
+$$
+\begin{align}
+&\hat{e_r} = \left(\frac{\partial x}{\partial r},\frac{\partial y}{\partial r}\right) = (cos(\theta),sin(\theta))\\
+&\hat{e_{\theta}} = \left(\frac{\partial x}{\partial \theta},\frac{\partial y}{\partial \theta}\right) = (-rsin(\theta),rcos(\theta))
+\end{align}
+$$
+
+This implies, that the metric tensor is:
+
+$$
+\begin{align}
+g_{ij} &= 
+\begin{bmatrix}
+\hat{e_r}.\hat{e_r} & \hat{e_r}.\hat{e_{\theta}} \\
+\hat{e_{\theta}}.\hat{e_r} & \hat{e_{\theta}}.\hat{e_{\theta}}
+\end{bmatrix}
+=
+\begin{bmatrix}
+\frac{\partial x}{\partial r}.\frac{\partial x}{\partial r} + \frac{\partial y}{\partial r}.\frac{\partial y}{\partial r} & \frac{\partial x}{\partial r}.\frac{\partial x}{\partial \theta} + \frac{\partial y}{\partial r}.\frac{\partial y}{\partial \theta}\\
+\frac{\partial x}{\partial \theta}.\frac{\partial x}{\partial r} + \frac{\partial y}{\partial \theta}.\frac{\partial y}{\partial r} & \frac{\partial x}{\partial \theta}.\frac{\partial x}{\partial \theta} + \frac{\partial y}{\partial \theta}.\frac{\partial y}{\partial \theta}
+\end{bmatrix}\label{eq:g}\\
+&= 
+\begin{bmatrix}
+1 & 0 \\
+0 & r^2
+\end{bmatrix}
+\end{align}
+$$
 
 
 
@@ -271,3 +329,4 @@ $$
 
 ---
 [^1]: Goldstein H et al. Classical Mechanics. Vol. 3rd edition. Pearson, 2002, xviii, 330–339 p.
+[^2]: Daniel Fleisch. A Student's Guide to Vectors and Tensors. Cambridge: Cambridge University Press, 2011, 97{157 p.
