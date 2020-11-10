@@ -108,7 +108,7 @@ $$
 $$
 
 
-**_NOTE:_**  The symbols used for $\psi$ in \eqref{eq:Sx} and \eqref{eq:Sr1} are same.
+**_NOTE:_**  The symbols used for $\psi$ in \eqref{eq:Sx} and \eqref{eq:Sr1} are same. Subscript $c$ denotes cartesian and $r$ denotes polar.
 
 
 
@@ -161,7 +161,14 @@ First of all, equation \eqref{eq:Sr3} is a mess. And secondly, equation \eqref{e
 
 ## The Solution
 
+Having identified the problem with the form of the Hamiltonian, we need to investigate this on a more intricate level. To solve this issue, we will take a small detour towards a more geometric approach to understand coordinate systems. Once that is done, all our discussion will automaticaly lead us to the correct form of the Hamiltonian.
 
+### A Little bit of Vector algebra!
+
+
+We will see, how vectors transform\footnote{I'm using the terminology in a very sloppy manner. What I mean to say is the components of a vector.} under a coordinate transformation? Let us start with a very simple example. Consider the vector, $\vec{A} = 1\hat{e_x} + 1\hat{e_y}$.
+
+![Image of Yaktocat](https://github.com/rudradevmandal/abc/blob/master/docs/Blog/podolsky_1928/1.png)
 
 
 
