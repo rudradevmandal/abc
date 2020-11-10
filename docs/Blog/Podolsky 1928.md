@@ -225,6 +225,7 @@ Calculating the components $A_{x'}$ and $A_{y'}$ using trivial trignometry, give
 $$
 A_{x'} =  1.00 \nonumber
 $$
+
 $$
 A_{y'} = 1.36 \nonumber
 $$
