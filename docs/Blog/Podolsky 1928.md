@@ -190,6 +190,12 @@ Now, let us see the same dot product in an obliqe axis coordinate. Consider the 
   <img src="https://raw.githubusercontent.com/rudradevmandal/abc/master/docs/Blog/podolsky_1928/2.png" alt="2" width="300"/>
 </p>
 
+Solving for $A^{x^{'}}$ and $A^{y^{'}}$:
+
+$$
+A^{y^{'}} =  \frac{1}{cos(30^o)} = 1.15\\
+A^{x^{'}} = 1 - \frac{cos(60^o)}{cos(30^o)} = 0.422
+$$
 
 
 ---
